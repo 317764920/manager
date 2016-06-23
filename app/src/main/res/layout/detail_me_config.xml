@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <com.lltech.manager.widget.TopBar
+        android:id="@+id/top"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <com.lcx.mysdk.view.MtScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:scrollbars="none">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/common_dp"
+            android:focusable="true"
+            android:focusableInTouchMode="true"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1px"
+                android:background="@color/grayLine" />
+
+            <LinearLayout
+                android:id="@+id/account"
+                android:layout_width="match_parent"
+                android:layout_height="70dp"
+                android:background="@drawable/selecter_common"
+                android:clickable="true"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:gravity="center_vertical"
+                    android:padding="10dp"
+                    android:text="帐号管理"
+                    android:textSize="15sp" />
+
+                <ImageView
+                    android:id="@+id/head"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:layout_marginRight="@dimen/common_dp"
+                    android:src="@drawable/user_center" />
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:padding="@dimen/common_dp"
+                    android:src="@drawable/arrow" />
+            </LinearLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1px"
+                android:background="@color/grayLine" />
+
+            <TextView
+                android:id="@+id/project"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/selecter_common"
+                android:drawableEnd="@drawable/arrow"
+                android:drawablePadding="10dp"
+                android:gravity="center_vertical"
+                android:padding="10dp"
+                android:text="切换项目"
+                android:textSize="15sp" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1px"
+                android:background="@color/grayLine" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1px"
+                android:layout_marginTop="@dimen/common_dp"
+                android:background="@color/grayLine" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/white"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:padding="10dp"
+                    android:text="消息通知"
+                    android:textSize="15sp" />
+
+                <com.kyleduo.switchbutton.SwitchButton
+                    android:id="@+id/open"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:paddingRight="@dimen/common_dp" />
+            </LinearLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1px"
+                android:background="@color/grayLine" />
+
+            <TextView
+                android:id="@+id/clear_cache"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/selecter_common"
+                android:gravity="center_vertical"
+                android:padding="10dp"
+                android:text="清空缓存"
+                android:textSize="15sp" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1px"
+                android:background="@color/grayLine" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1px"
+                android:layout_marginTop="@dimen/common_dp"
+                android:background="@color/grayLine" />
+
+            <TextView
+                android:id="@+id/exit_login"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/selecter_common"
+                android:gravity="center"
+                android:padding="10dp"
+                android:text="退出当前帐号"
+                android:textColor="@color/tomato"
+                android:textSize="15sp" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1px"
+                android:background="@color/grayLine" />
+        </LinearLayout>
+    </com.lcx.mysdk.view.MtScrollView>
+
+</LinearLayout>

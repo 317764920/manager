@@ -1,0 +1,234 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical" >
+
+    <com.lcx.mysdk.view.MtScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scrollbars="none" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:focusable="true"
+            android:focusableInTouchMode="true"
+            android:orientation="vertical" >
+
+            <TableLayout style="@style/Table" >
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" >
+
+                    <TextView
+                        style="@style/DetailTextStyleLeft"
+                        android:text="设备编号" />
+
+                    <TextView
+                        android:id="@+id/EquipmentNo"
+                        style="@style/DetailTextStyleRight" />
+                </TableRow>
+
+                <View style="@style/DetailViewStyle" />
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" >
+
+                    <TextView
+                        style="@style/DetailTextStyleLeft"
+                        android:text="设备名称" />
+
+                    <TextView
+                        android:id="@+id/EquipmentName"
+                        style="@style/DetailTextStyleRight" />
+                </TableRow>
+
+                <View style="@style/DetailViewStyle" />
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" >
+
+                    <TextView
+                        style="@style/DetailTextStyleLeft"
+                        android:text="设备品牌" />
+
+                    <TextView
+                        android:id="@+id/Brand"
+                        style="@style/DetailTextStyleRight" />
+                </TableRow>
+
+                <View style="@style/DetailViewStyle" />
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" >
+
+                    <TextView
+                        style="@style/DetailTextStyleLeft"
+                        android:text="规格型号" />
+
+                    <TextView
+                        android:id="@+id/Model"
+                        style="@style/DetailTextStyleRight" />
+                </TableRow>
+
+                <View style="@style/DetailViewStyle" />
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" >
+
+                    <TextView
+                        style="@style/DetailTextStyleLeft"
+                        android:text="计量单位" />
+
+                    <TextView
+                        android:id="@+id/MeasurementUnit"
+                        style="@style/DetailTextStyleRight" />
+                </TableRow>
+
+                <View style="@style/DetailViewStyle" />
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" >
+
+                    <TextView
+                        style="@style/DetailTextStyleLeft"
+                        android:text="所属系统" />
+                    
+                    <TextView
+                        android:id="@+id/SystemCode"
+                        style="@style/DetailTextStyleRight" />
+                </TableRow>
+
+                <View style="@style/DetailViewStyle" />
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" >
+
+                    <TextView
+                        style="@style/DetailTextStyleLeft"
+                        android:text="安裝区域" />
+
+                    <TextView
+                        android:id="@+id/InstallPlace"
+                        style="@style/DetailTextStyleRight" />
+                </TableRow>
+
+                <View style="@style/DetailViewStyle" />
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" >
+
+                    <TextView
+                        style="@style/DetailTextStyleLeft"
+                        android:text="所属单位" />
+
+                    <TextView
+                        android:id="@+id/UseOrganization"
+                        style="@style/DetailTextStyleRight" />
+                </TableRow>
+
+                <View style="@style/DetailViewStyle" />
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" >
+
+                    <TextView
+                        style="@style/DetailTextStyleLeft"
+                        android:text="责任部门" />
+
+                    <TextView
+                        android:id="@+id/ResponsibilityDep"
+                        style="@style/DetailTextStyleRight" />
+                </TableRow>
+
+                <View style="@style/DetailViewStyle" />
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" >
+
+                    <TextView
+                        style="@style/DetailTextStyleLeft"
+                        android:text="责任人" />
+
+                    <TextView
+                        android:id="@+id/ResponsibilityUser"
+                        style="@style/DetailTextStyleRight" />
+                </TableRow>
+
+                <View style="@style/DetailViewStyle" />
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" >
+
+                    <TextView
+                        style="@style/DetailTextStyleLeft"
+                        android:text="设备类型" />
+
+                    <TextView
+                        android:id="@+id/TypeCode"
+                        style="@style/DetailTextStyleRight" />
+                </TableRow>
+
+                <View style="@style/DetailViewStyle" />
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" >
+
+                    <TextView
+                        style="@style/DetailTextStyleLeft"
+                        android:text="投入使用日期" />
+
+                    <TextView
+                        android:id="@+id/PutIntoUseDate"
+                        style="@style/DetailTextStyleRight" />
+                </TableRow>
+
+                <View style="@style/DetailViewStyle" />
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" >
+
+                    <TextView
+                        style="@style/DetailTextStyleLeft"
+                        android:text="是否可控" />
+
+                    <TextView
+                        android:id="@+id/IsControl"
+                        style="@style/DetailTextStyleRight" />
+                </TableRow>
+
+                <View style="@style/DetailViewStyle" />
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" >
+
+                    <TextView
+                        style="@style/DetailTextStyleLeft"
+                        android:text="状态" />
+
+                    <TextView
+                        android:id="@+id/Status"
+                        style="@style/DetailTextStyleRight"/>
+                </TableRow>
+
+                <View style="@style/DetailViewStyle" />
+            </TableLayout>
+        </LinearLayout>
+    </com.lcx.mysdk.view.MtScrollView>
+
+</LinearLayout>

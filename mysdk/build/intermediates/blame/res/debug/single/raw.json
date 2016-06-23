@@ -1,0 +1,18 @@
+[
+    {
+        "merged": "D:\\StudioProjects\\manager\\mysdk\\build\\intermediates\\res\\merged\\debug\\raw\\realm_properties",
+        "source": "D:\\StudioProjects\\manager\\mysdk\\src\\main\\res\\raw\\realm_properties"
+    },
+    {
+        "merged": "F:\\StudioProjects\\manager\\mysdk\\build\\intermediates\\res\\merged\\debug\\raw\\realm_properties",
+        "source": "F:\\StudioProjects\\manager\\mysdk\\src\\main\\res\\raw\\realm_properties"
+    },
+    {
+        "merged": "F:\\StudioProjects\\manager\\mysdk\\build\\intermediates\\res\\merged\\debug\\raw\\beep.ogg",
+        "source": "F:\\StudioProjects\\manager\\mysdk\\src\\main\\res\\raw\\beep.ogg"
+    },
+    {
+        "merged": "D:\\StudioProjects\\manager\\mysdk\\build\\intermediates\\res\\merged\\debug\\raw\\beep.ogg",
+        "source": "D:\\StudioProjects\\manager\\mysdk\\src\\main\\res\\raw\\beep.ogg"
+    }
+]

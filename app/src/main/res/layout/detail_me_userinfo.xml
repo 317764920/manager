@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <com.lltech.manager.widget.TopBar
+        android:id="@+id/top"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <com.lcx.mysdk.view.MtScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:scrollbars="none">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:focusable="true"
+            android:focusableInTouchMode="true"
+            android:orientation="vertical">
+
+            <TableLayout style="@style/Table">
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:padding="20dp">
+
+                    <TextView
+                        android:id="@+id/EmployeeName"
+                        style="@style/DetailTextStyleLeft"
+                        android:layout_weight="1"
+                        android:text="张三"
+                        android:textSize="20sp" />
+
+                    <ImageView
+                        android:id="@+id/me_head"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginRight="20dp"
+                        android:background="@drawable/me_head" />
+                </TableRow>
+            </TableLayout>
+
+            <TableLayout
+                style="@style/Table"
+                android:layout_marginTop="20dp">
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <TextView
+                        style="@style/DetailTextStyleLeft"
+                        android:text="登录名" />
+
+                    <TextView
+                        android:id="@+id/LoginID"
+                        style="@style/DetailTextStyleRight"
+                        android:gravity="center_vertical|right"
+                        android:paddingLeft="0dp"
+                        android:paddingRight="20dp" />
+                </TableRow>
+
+                <View style="@style/DetailViewStyle" />
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <TextView
+                        style="@style/DetailTextStyleLeft"
+                        android:text="性别" />
+
+                    <TextView
+                        android:id="@+id/Sex"
+                        style="@style/DetailTextStyleRight"
+                        android:gravity="center_vertical|right"
+                        android:paddingLeft="0dp"
+                        android:paddingRight="20dp" />
+                </TableRow>
+
+                <View style="@style/DetailViewStyle" />
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <TextView
+                        style="@style/DetailTextStyleLeft"
+                        android:text="所属公司" />
+
+                    <TextView
+                        android:id="@+id/CompanyName"
+                        style="@style/DetailTextStyleRight"
+                        android:gravity="center_vertical|right"
+                        android:paddingLeft="0dp"
+                        android:paddingRight="20dp" />
+                </TableRow>
+
+                <View style="@style/DetailViewStyle" />
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <TextView
+                        style="@style/DetailTextStyleLeft"
+                        android:text="所在部门" />
+
+                    <TextView
+                        android:id="@+id/DeptName"
+                        style="@style/DetailTextStyleRight"
+                        android:gravity="center_vertical|right"
+                        android:paddingLeft="0dp"
+                        android:paddingRight="20dp" />
+                </TableRow>
+
+                <View style="@style/DetailViewStyle" />
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <TextView
+                        style="@style/DetailTextStyleLeft"
+                        android:text="职位" />
+
+                    <TextView
+                        android:id="@+id/PostName"
+                        style="@style/DetailTextStyleRight"
+                        android:gravity="center_vertical|right"
+                        android:paddingLeft="0dp"
+                        android:paddingRight="20dp" />
+                </TableRow>
+
+                <View style="@style/DetailViewStyle" />
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <TextView
+                        style="@style/DetailTextStyleLeft"
+                        android:text="备注" />
+
+                    <TextView
+                        android:id="@+id/Remark"
+                        style="@style/DetailTextStyleRight"
+                        android:gravity="center_vertical|right"
+                        android:paddingLeft="0dp"
+                        android:paddingRight="20dp" />
+                </TableRow>
+
+                <View style="@style/DetailViewStyle" />
+            </TableLayout>
+        </LinearLayout>
+    </com.lcx.mysdk.view.MtScrollView>
+
+</LinearLayout>

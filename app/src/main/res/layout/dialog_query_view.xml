@@ -1,0 +1,49 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:focusable="true"
+    android:focusableInTouchMode="true"
+    android:padding="1dp">
+
+    <Button
+        android:id="@+id/dialog_left_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@null"
+        android:text="全 部"
+        android:textColor="@color/gray"
+        android:textSize="15sp" />
+
+    <ImageView
+        android:id="@+id/sanjiao"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:src="@drawable/sanjiao_down" />
+
+    <EditText
+        android:id="@+id/queryText"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_margin="5dp"
+        android:layout_weight="1"
+        android:background="@drawable/boder"
+        android:ems="10"
+        android:hint="输入名称查询"
+        android:paddingEnd="0dp"
+        android:paddingStart="5dp"
+        android:textColor="@color/gray"
+        android:textSize="15sp" />
+
+    <Button
+        android:id="@+id/query"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_gravity="center"
+        android:layout_margin="5dp"
+        android:background="@drawable/selecter_me"
+        android:text="查询"
+        android:textColor="@color/gray"
+        android:textSize="15sp" />
+
+</LinearLayout>

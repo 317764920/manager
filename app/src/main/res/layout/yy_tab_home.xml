@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/backgroundcolor"
+    android:orientation="vertical">
+
+    <com.lltech.manager.widget.TopBar
+        android:id="@+id/top"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/white">
+
+        <com.lltech.manager.widget.PieChartView
+            android:layout_width="match_parent"
+            android:layout_height="200dp" />
+    </RelativeLayout>
+
+    <com.lltech.manager.widget.MyGridView
+        android:id="@+id/gridView"
+        android:layout_marginTop="10dp"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/white"
+        android:listSelector="@android:color/transparent"
+        android:gravity="center"
+        android:numColumns="3"
+        android:stretchMode="columnWidth">
+
+    </com.lltech.manager.widget.MyGridView>
+
+</LinearLayout>

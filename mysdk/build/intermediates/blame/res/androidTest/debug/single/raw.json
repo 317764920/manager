@@ -1,0 +1,18 @@
+[
+    {
+        "merged": "F:\\StudioProjects\\manager\\mysdk\\build\\intermediates\\res\\merged\\androidTest\\debug\\raw\\realm_properties",
+        "source": "F:\\StudioProjects\\manager\\mysdk\\build\\intermediates\\bundles\\debug\\res\\raw\\realm_properties"
+    },
+    {
+        "merged": "F:\\StudioProjects\\manager\\mysdk\\build\\intermediates\\res\\merged\\androidTest\\debug\\raw\\beep.ogg",
+        "source": "F:\\StudioProjects\\manager\\mysdk\\build\\intermediates\\bundles\\debug\\res\\raw\\beep.ogg"
+    },
+    {
+        "merged": "D:\\StudioProjects\\manager\\mysdk\\build\\intermediates\\res\\merged\\androidTest\\debug\\raw\\realm_properties",
+        "source": "D:\\StudioProjects\\manager\\mysdk\\build\\intermediates\\bundles\\debug\\res\\raw\\realm_properties"
+    },
+    {
+        "merged": "D:\\StudioProjects\\manager\\mysdk\\build\\intermediates\\res\\merged\\androidTest\\debug\\raw\\beep.ogg",
+        "source": "D:\\StudioProjects\\manager\\mysdk\\build\\intermediates\\bundles\\debug\\res\\raw\\beep.ogg"
+    }
+]

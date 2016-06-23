@@ -1,0 +1,244 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <com.lltech.manager.widget.TopBar
+        android:id="@+id/top"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <com.lcx.mysdk.view.MtScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:fillViewport="false"
+        android:scrollbars="none">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:focusable="true"
+            android:focusableInTouchMode="true"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/btn_blue"
+                android:orientation="vertical">
+
+                <RelativeLayout
+                    android:id="@+id/rela_progress"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="10dp"
+                    android:background="@drawable/shape_progress"
+                    android:visibility="gone">
+
+                    <ImageView
+                        android:id="@+id/img"
+                        android:layout_width="40dp"
+                        android:layout_height="40dp"
+                        android:layout_margin="@dimen/common_dp"
+                        android:src="@drawable/bx_list_left4" />
+
+                    <TextView
+                        android:id="@+id/txt_state"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="@dimen/common_dp"
+                        android:layout_toRightOf="@+id/img"
+                        android:text="报修单已提交"
+                        android:textColor="@color/black"
+                        android:textSize="15dp" />
+
+                    <TextView
+                        android:id="@+id/txt_state_time"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignLeft="@+id/txt_state"
+                        android:layout_below="@+id/txt_state"
+                        android:text="2016-05-20 19:30:21"
+                        android:textColor="@color/gray" />
+                </RelativeLayout>
+
+                <View style="@style/DetailViewStyle" />
+
+                <EditText
+                    android:id="@+id/edit_theme"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@color/white"
+                    android:gravity="top"
+                    android:hint="填写维修主题(必填)"
+                    android:padding="10dp"
+                    android:textColor="@color/gray"
+                    android:textSize="15sp" />
+
+                <View style="@style/DetailViewStyle" />
+
+                <EditText
+                    android:id="@+id/edit_fault"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@color/white"
+                    android:gravity="top"
+                    android:hint="填写故障说明(必填)"
+                    android:padding="10dp"
+                    android:textColor="@color/gray"
+                    android:textSize="15sp" />
+
+                <com.lltech.manager.widget.UploadVoiceView
+                    android:id="@+id/uploadVoiceView"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" />
+
+            </LinearLayout>
+
+            <TableLayout style="@style/Table">
+
+                <View style="@style/DetailViewStyle" />
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <TextView
+                        style="@style/DetailTextStyleLeft"
+                        android:text="所在区域" />
+
+                    <TextView
+                        android:id="@+id/txt_area"
+                        style="@style/DetailTextStyleRight1"
+                        android:hint="必填" />
+                </TableRow>
+
+                <View style="@style/DetailViewStyle" />
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <TextView
+                        style="@style/DetailTextStyleLeft"
+                        android:text="报修联系人" />
+
+                    <EditText
+                        android:id="@+id/edit_repair_person"
+                        style="@style/DetailTextStyleRight"
+                        android:hint="必填" />
+                </TableRow>
+
+                <View style="@style/DetailViewStyle" />
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <TextView
+                        style="@style/DetailTextStyleLeft"
+                        android:text="详细地址" />
+
+                    <EditText
+                        android:id="@+id/edit_address"
+                        style="@style/DetailTextStyleRight"
+                        android:hint="必填" />
+                </TableRow>
+
+                <View style="@style/DetailViewStyle" />
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <TextView
+                        style="@style/DetailTextStyleLeft"
+                        android:text="联系电话" />
+
+                    <EditText
+                        android:id="@+id/edit_phone"
+                        style="@style/DetailTextStyleRight"
+                        android:hint="必填" />
+                </TableRow>
+
+                <View style="@style/DetailViewStyle" />
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <TextView
+                        style="@style/DetailTextStyleLeft"
+                        android:text="预计维修时间" />
+
+                    <TextView
+                        android:id="@+id/txt_repair_time"
+                        style="@style/DetailTextStyleRight1"
+                        android:hint="必填" />
+                </TableRow>
+
+                <View style="@style/DetailViewStyle" />
+
+            </TableLayout>
+
+            <View style="@style/DetailViewStyle" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:background="@color/white"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:padding="10dp"
+                    android:text="精确定位设备"
+                    android:textSize="15sp" />
+
+                <com.kyleduo.switchbutton.SwitchButton
+                    android:id="@+id/open"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:paddingRight="@dimen/common_dp" />
+            </LinearLayout>
+
+            <View style="@style/DetailViewStyle" />
+
+            <LinearLayout
+                android:id="@+id/linear_add"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:orientation="vertical"
+                android:visibility="gone">
+
+                <TextView
+                    android:id="@+id/eq"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/selecter_me"
+                    android:clickable="true"
+                    android:padding="10dp"
+                    android:text="添加设备"
+                    android:textSize="15sp" />
+            </LinearLayout>
+
+            <com.lltech.manager.widget.UploadFileView
+                android:id="@+id/uploadFileView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/common_dp"
+                android:background="@color/white" />
+
+        </LinearLayout>
+    </com.lcx.mysdk.view.MtScrollView>
+
+    <include layout="@layout/bottom_yuyin" />
+
+</LinearLayout>

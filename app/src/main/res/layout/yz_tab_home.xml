@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/backgroundcolor"
+    android:orientation="vertical">
+
+    <com.lltech.manager.widget.TopBar
+        android:id="@+id/top"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <com.jorge.circlelibrary.ImageCycleView
+        android:id="@+id/cycleView"
+        android:layout_width="match_parent"
+        android:layout_height="150dp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_marginTop="@dimen/common_dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/text_add_bx"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@drawable/selecter_common"
+            android:drawablePadding="@dimen/common_dp"
+            android:drawableStart="@drawable/sys"
+            android:gravity="center_vertical"
+            android:padding="10dp"
+            android:text="我要报修"
+            android:textSize="16sp" />
+
+        <View
+            android:layout_width="1px"
+            android:layout_height="match_parent"
+            android:layout_marginBottom="5dp"
+            android:layout_marginTop="5dp"
+            android:background="@color/lightgray" />
+
+        <TextView
+            android:id="@+id/text_bx"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@drawable/selecter_common"
+            android:drawablePadding="@dimen/common_dp"
+            android:drawableStart="@drawable/sys"
+            android:gravity="center_vertical"
+            android:padding="10dp"
+            android:text="我的报修"
+            android:textSize="16sp" />
+    </LinearLayout>
+
+
+    <TextView
+        android:id="@+id/text_sao"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_marginTop="@dimen/common_dp"
+        android:background="@drawable/selecter_common"
+        android:drawablePadding="@dimen/common_dp"
+        android:drawableStart="@drawable/sys"
+        android:gravity="center_vertical"
+        android:padding="10dp"
+        android:text="扫一扫"
+        android:textSize="16sp" />
+</LinearLayout>
+

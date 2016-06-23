@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/backgroundcolor"
+    android:orientation="vertical">
+
+    <com.lltech.manager.widget.TopBar
+        android:id="@+id/top"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <EditText
+        android:id="@+id/ip"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@null"
+        android:drawablePadding="@dimen/common_dp"
+        android:drawableStart="@drawable/ip"
+        android:hint="@string/hint_ip"
+        android:padding="@dimen/common_dp"
+        android:textColor="@color/black"
+        android:textSize="15sp" />
+
+    <View style="@style/DetailViewStyle" />
+
+    <EditText
+        android:id="@+id/port"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@null"
+        android:drawablePadding="@dimen/common_dp"
+        android:drawableStart="@drawable/port"
+        android:hint="@string/hint_port"
+        android:padding="@dimen/common_dp"
+        android:textColor="@color/black"
+        android:textSize="15sp" />
+
+    <View style="@style/DetailViewStyle" />
+
+</LinearLayout>

@@ -1,0 +1,18 @@
+[
+    {
+        "merged": "D:\\StudioProjects\\manager\\mysdk\\build\\intermediates\\res\\merged\\debug\\layout-v14\\fragment_multi_image.xml",
+        "source": "D:\\StudioProjects\\manager\\mysdk\\src\\main\\res\\layout-v14\\fragment_multi_image.xml"
+    },
+    {
+        "merged": "D:\\StudioProjects\\manager\\mysdk\\build\\intermediates\\res\\merged\\debug\\layout-v14\\common_datetime.xml",
+        "source": "D:\\StudioProjects\\manager\\mysdk\\src\\main\\res\\layout-v14\\common_datetime.xml"
+    },
+    {
+        "merged": "F:\\StudioProjects\\manager\\mysdk\\build\\intermediates\\res\\merged\\debug\\layout-v14\\fragment_multi_image.xml",
+        "source": "F:\\StudioProjects\\manager\\mysdk\\src\\main\\res\\layout-v14\\fragment_multi_image.xml"
+    },
+    {
+        "merged": "F:\\StudioProjects\\manager\\mysdk\\build\\intermediates\\res\\merged\\debug\\layout-v14\\common_datetime.xml",
+        "source": "F:\\StudioProjects\\manager\\mysdk\\src\\main\\res\\layout-v14\\common_datetime.xml"
+    }
+]

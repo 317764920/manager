@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">机电管家</string>
+    <string name="version_text">Copyright © 2016 领略科技 版权所有</string>
+    <string name="net_error">请求超时</string>
+    <string name="pop_back_text">返回</string>
+    <string name="tab_home_top">机电管家</string>
+    <string name="tab_msg_top">消息</string>
+    <string name="tab_menu_top">办公</string>
+    <string name="tab_me_top">我的</string>
+    <string name="tab_home_bottom">首页</string>
+    <string name="tab_msg_bottom">消息</string>
+    <string name="tab_menu_bottom">办公</string>
+    <string name="tab_me_bottom">我的</string>
+    <string name="loading"></string>
+    <string name="login_title">机电管家</string>
+    <string name="go_login">登录</string>
+    <string name="url_config">地址设置</string>
+    <string name="go_logining">正在登录...</string>
+    <string name="go_initing">正在读取项目...</string>
+    <string name="login_ok">登录成功</string>
+    <string name="oper_ok">操作成功</string>
+    <string name="change_ok">切换成功</string>
+    <string name="go_exit">退出登录</string>
+    <string name="hint_username">请输入用户名</string>
+    <string name="hint_pwd">请输入密码</string>
+    <string name="hint_ip">请输入Ip地址或域名</string>
+    <string name="hint_port">请输入端口号</string>
+    <string name="iplist_title">所有地址</string>
+    <string name="use">启用</string>
+    <string name="bottom_commit">确认领单</string>
+    <string name="bottom_roll_back">退单</string>
+    <string name="bottom_keep">保存</string>
+    <string name="bottom_pg">派工</string>
+    <string name="bottom_delete">删除</string>
+    <string name="bottom_cancel">取消</string>
+    <string name="unuse">禁用</string>
+    <string name="add">新增</string>
+    <string name="confirm">确定</string>
+    <string name="send">发送</string>
+    <string name="submit">提交</string>
+    <string name="me_info">个人信息</string>
+    <string name="me_message">我的消息</string>
+    <string name="me_pwd">修改密码</string>
+    <string name="me_project">切换项目</string>
+    <string name="me_about">应用设置</string>
+
+
+
+    <string name="eq_info_sys">扫一扫</string>
+    <string name="eq_info_byList">保养记录</string>
+    <string name="eq_info_wxList">维修记录</string>
+    
+    <string name="menu_by">保养</string>
+    <string name="menu_by_item1">待保养项目</string>
+    <string name="menu_by_item2">保养计划及派工</string>
+    <string name="menu_by_item3">保养执行</string>
+    <string name="menu_by_item4">保养完工单</string>
+    <string name="menu_by_item5">保养记录</string>
+    <string name="menu_sb">设备档案</string>
+    <string name="menu_sb_item1">通风设备</string>
+    <string name="menu_sb_item2">照明设备</string>
+    <string name="menu_sb_item3">电话设备</string>
+    <string name="menu_sb_item4">火灾设备</string>
+    <string name="menu_sb_item5">广播设备</string>
+    <string name="menu_sb_item6">CCTV设备</string>
+    <string name="menu_sb_item7">交通设备</string>
+    <string name="menu_wh">维护</string>
+    <string name="menu_wh_item1">报修单</string>
+    <string name="menu_wh_item2">维修单</string>
+    <string name="menu_wh_item3">维修记录</string>
+    <string name="menu_wh_item4">派工单</string>
+    <string name="menu_yx">运行监控</string>
+    <string name="menu_yx_item1">通风运行监控</string>
+    <string name="menu_yx_item2">照明运行监控</string>
+    <string name="menu_yx_item3">电话运行监控</string>
+    <string name="menu_yx_item4">火灾运行监控</string>
+    <string name="menu_yx_item5">广播运行监控</string>
+    <string name="menu_yx_item6">CCTV运行监控</string>
+    <string name="menu_yx_item7">交通运行监控</string>
+    <string name="menu_sj">数据统计</string>
+    <string name="menu_sj_item1">保养计划统计</string>
+    <string name="menu_sj_item2">报修记录统计</string>
+    <string name="menu_sj_item3">维修记录统计</string>
+    <string name="menu_sj_item4">机具材料出入库统计</string>
+
+    <string name="xj_name">配电房巡检表</string>
+    <string name="xj_address">维护地址：</string>
+    <string name="xj_content">维护内容：</string>
+
+    <string name="ljyx">本次巡检机组累计运行时间</string>
+    <string name="fdjyl">发电机油量</string>
+    <string name="byyl">备用油量</string>
+    <string name="jyyl">机油压力</string>
+    <string name="lqyw">冷却液温度</string>
+    <string name="dcdy">电池电压</string>
+    <string name="zx">转 速</string>
+    <string name="pl">频 率</string>
+    <string name="cddl">充电电流</string>
+    <string name="abdy">A.B电压</string>
+    <string name="axdl">A相电流</string>
+    <string name="bcdy">B.C电压 </string>
+    <string name="bxdl">B相电流</string>
+    <string name="cbdy">C.B电压</string>
+    <string name="cxdl">C相电流</string>
+
+</resources>

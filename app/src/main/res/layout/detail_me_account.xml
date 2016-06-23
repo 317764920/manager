@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <com.lltech.manager.widget.TopBar
+        android:id="@+id/top"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <com.lcx.mysdk.view.MtScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:scrollbars="none">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:focusable="true"
+            android:focusableInTouchMode="true"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/account_size"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:padding="@dimen/common_dp"
+                android:text="您当前共管理0个帐号"
+                android:textColor="@color/heixiang" />
+
+            <View style="@style/DetailViewStyle" />
+
+            <TextView
+                android:id="@+id/addAccount"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/selecter_me"
+                android:gravity="center_vertical"
+                android:padding="@dimen/common_dp"
+                android:text="添加帐号"
+                android:textColor="@color/btn_blue"
+                android:textSize="15sp" />
+
+            <View style="@style/DetailViewStyle" />
+
+            <ListView
+                android:id="@+id/listView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/white"
+                android:divider="@drawable/divider_home"
+                android:dividerHeight="1px" />
+
+            <View style="@style/DetailViewStyle" />
+
+        </LinearLayout>
+    </com.lcx.mysdk.view.MtScrollView>
+
+</LinearLayout>

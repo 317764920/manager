@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <com.lltech.manager.widget.TopBar
+        android:id="@+id/top"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <com.lcx.mysdk.view.MtScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:scrollbars="none">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:focusable="true"
+            android:focusableInTouchMode="true"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/selecter_me"
+                    android:clickable="true"
+                    android:padding="10dp"
+                    android:text="计划编号"
+                    android:textSize="15sp"/>
+
+                <View style="@style/DetailViewStyle" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/selecter_me"
+                    android:clickable="true"
+                    android:padding="10dp"
+                    android:text="保养主题"
+                    android:textSize="15sp"/>
+
+                <View style="@style/DetailViewStyle" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/selecter_me"
+                    android:gravity="center_vertical"
+                    android:padding="10dp"
+                    android:text="此处是项目列表"
+                    android:textSize="15sp"/>
+
+            </LinearLayout>
+
+            <TableLayout style="@style/Table"
+                android:layout_marginTop="20dp">
+
+                <View style="@style/DetailViewStyle" />
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <TextView
+                        style="@style/DetailTextStyleLeft"
+                        android:text="计划执行时间" />
+
+                    <TextView
+                        android:id="@+id/LastTime"
+                        style="@style/DetailTextStyleRight1" />
+                </TableRow>
+
+                <View style="@style/DetailViewStyle" />
+
+            </TableLayout>
+
+            <EditText
+                android:id="@+id/editText"
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:background="@color/white"
+                android:gravity="top"
+                android:hint="填写说明..."
+                android:padding="10dp"
+                android:textColor="@color/gray"
+                android:textSize="15sp" />
+
+            <View style="@style/DetailViewStyle" />
+
+        </LinearLayout>
+    </com.lcx.mysdk.view.MtScrollView>
+
+</LinearLayout>

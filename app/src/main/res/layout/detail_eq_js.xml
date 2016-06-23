@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical" >
+
+    <com.lcx.mysdk.view.MtScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scrollbars="none" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:focusable="true"
+            android:focusableInTouchMode="true"
+            android:orientation="vertical" >
+
+            <TableLayout style="@style/Table" >
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" >
+
+                    <TextView
+                        style="@style/DetailTextStyleLeft"
+                        android:text="协议类型" />
+
+                    <TextView
+                        android:id="@+id/ProtocolId"
+                        style="@style/DetailTextStyleRight" />
+                </TableRow>
+
+                <View style="@style/DetailViewStyle" />
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" >
+
+                    <TextView
+                        style="@style/DetailTextStyleLeft"
+                        android:text="通信地址" />
+
+                    <TextView
+                        android:id="@+id/SignalAddr"
+                        style="@style/DetailTextStyleRight" />
+                </TableRow>
+
+                <View style="@style/DetailViewStyle" />
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" >
+
+                    <TextView
+                        style="@style/DetailTextStyleLeft"
+                        android:text="数据地址" />
+
+                    <TextView
+                        android:id="@+id/DataAddr"
+                        style="@style/DetailTextStyleRight" />
+                </TableRow>
+
+                <View style="@style/DetailViewStyle" />
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" >
+
+                    <TextView
+                        style="@style/DetailTextStyleLeft"
+                        android:text="代理地址" />
+
+                    <TextView
+                        android:id="@+id/ProxyAddr"
+                        style="@style/DetailTextStyleRight" />
+                </TableRow>
+
+                <View style="@style/DetailViewStyle" />
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" >
+
+                    <TextView
+                        style="@style/DetailTextStyleLeft"
+                        android:text="代理端口" />
+
+                    <TextView
+                        android:id="@+id/ProxyPortAddr"
+                        style="@style/DetailTextStyleRight" />
+                </TableRow>
+
+                <View style="@style/DetailViewStyle" />
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" >
+
+                    <TextView
+                        style="@style/DetailTextStyleLeft"
+                        android:text="代理用户名" />
+
+                    <TextView
+                        android:id="@+id/ProxyUser"
+                        style="@style/DetailTextStyleRight" />
+                </TableRow>
+
+                <View style="@style/DetailViewStyle" />
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" >
+
+                    <TextView
+                        style="@style/DetailTextStyleLeft"
+                        android:text="代理密码" />
+
+                    <TextView
+                        android:id="@+id/ProxyPwd"
+                        style="@style/DetailTextStyleRight" />
+                </TableRow>
+
+                <View style="@style/DetailViewStyle" />
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" >
+
+                    <TextView
+                        style="@style/DetailTextStyleLeft"
+                        android:text="端口" />
+
+                    <TextView
+                        android:id="@+id/PortAddr"
+                        style="@style/DetailTextStyleRight" />
+                </TableRow>
+
+                <View style="@style/DetailViewStyle" />
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" >
+
+                    <TextView
+                        style="@style/DetailTextStyleLeft"
+                        android:text="通信登录名" />
+
+                    <TextView
+                        android:id="@+id/SignalUser"
+                        style="@style/DetailTextStyleRight" />
+                </TableRow>
+
+                <View style="@style/DetailViewStyle" />
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" >
+
+                    <TextView
+                        style="@style/DetailTextStyleLeft"
+                        android:text="通信密码" />
+
+                    <TextView
+                        android:id="@+id/SignalPwd"
+                        style="@style/DetailTextStyleRight" />
+                </TableRow>
+
+                <View style="@style/DetailViewStyle" />
+            </TableLayout>
+        </LinearLayout>
+    </com.lcx.mysdk.view.MtScrollView>
+
+</LinearLayout>

@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:descendantFocusability="blocksDescendants"
+    android:gravity="center_vertical">
+
+    <com.lltech.manager.widget.ListCheckBox
+        android:id="@+id/checkBox"
+        style="@style/ListCheckboxTheme"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_margin="@dimen/common_dp"
+        android:clickable="false"
+        android:visibility="gone" />
+
+    <ImageView
+        android:id="@+id/img"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_marginBottom="@dimen/common_dp"
+        android:layout_marginLeft="@dimen/common_dp"
+        android:layout_marginTop="@dimen/common_dp"
+        android:layout_toRightOf="@+id/checkBox"
+        android:src="@drawable/bx_list_left4" />
+
+    <TextView
+        android:id="@+id/title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_toEndOf="@+id/img"
+        android:layout_toStartOf="@+id/time"
+        android:padding="10dp"
+        android:singleLine="true"
+        android:text="报修单"
+        android:textColor="@color/black"
+        android:textSize="17sp" />
+
+    <TextView
+        android:id="@+id/time"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentTop="true"
+        android:padding="10dp"
+        android:text="2015-01-01"
+        android:textColor="@color/gray"
+        android:textSize="12sp" />
+
+    <TextView
+        android:id="@+id/text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/time"
+        android:layout_toEndOf="@+id/img"
+        android:padding="10dp"
+        android:singleLine="true"
+        android:text="报修啊报修啊报修啊"
+        android:textColor="@color/gray"
+        android:textSize="14sp" />
+</RelativeLayout>

@@ -1,0 +1,252 @@
+package com.lcx.mysdk.activity;
+
+import android.content.pm.PackageManager;
+import android.os.Build;
+import android.os.Bundle;
+import android.support.v7.app.AppCompatActivity;
+import android.view.MenuItem;
+import android.view.View;
+import android.widget.EditText;
+import android.widget.TextView;
+
+import com.baoyz.swipemenulistview.SwipeMenuListView;
+import com.lcx.mysdk.application.BaseApplication;
+import com.lcx.mysdk.interfaces.CloseListener;
+import com.lcx.mysdk.utils.ActivityManager;
+import com.lcx.mysdk.utils.CommonUtil;
+import com.lcx.mysdk.utils.ResultCode;
+import com.lcx.mysdk.view.LoadingDialog;
+import com.mobsandgeeks.saripaar.Validator;
+
+import java.util.ArrayList;
+import java.util.LinkedList;
+import java.util.List;
+
+/**
+ * @ClassName(类名) : BaseV7Activity
+ * @Description(描述) : V7包基类
+ * @author(作者) ：liuchunxu
+ * @date (开发日期)      ：2016年04月06日 12:09
+ */
+public abstract class BaseV7Activity extends AppCompatActivity {
+    // public CustomProgressDialog mDialog;
+    public LoadingDialog lDialog;
+    public Validator validator;
+
+    private List<TextView> tableText = new LinkedList<TextView>();
+    private List<EditText> tableEdit = new LinkedList<EditText>();
+
+    public boolean isShow = false;
+
+    /**
+     * @param viewID
+     * @return T
+     * @throws :
+     * @Description(功能描述) : 加载view
+     * @author(作者) ： liuchunxu
+     * @date (开发日期) : 2015年8月19日 上午11:33:57
+     */
+    @SuppressWarnings("unchecked")
+    public <T> T $(int viewID) {
+        View view = findViewById(viewID);
+        if (view instanceof TextView) {
+            tableText.add((TextView) view);
+        } else if (view instanceof EditText) {
+            tableEdit.add((EditText) view);
+        } else if (view instanceof SwipeMenuListView) {
+
+        }
+        return (T) view;
+    }
+
+    /**
+     * @param v
+     * @param viewID
+     * @return T
+     * @throws :
+     * @Description(功能描述) : 加载view
+     * @author(作者) ： liuchunxu
+     * @date (开发日期) : 2015年11月24日 下午7:59:28
+     */
+    @SuppressWarnings("unchecked")
+    public <T> T $(View v, int viewID) {
+        View view = v.findViewById(viewID);
+        // if (view instanceof TextView) {
+        // tableText.add((TextView) view);
+        // } else if (view instanceof EditText) {
+        // tableEdit.add((EditText) view);
+        // } else if (view instanceof SwipeMenuListView) {
+        //
+        // }
+        return (T) view;
+    }
+
+    @Override
+    protected void onCreate(Bundle savedInstanceState) {
+        super.onCreate(savedInstanceState);
+        ActivityManager.addActivity(this);
+        if (validator == null) {
+            validator = new Validator(this);
+        }
+//        registerReceiver();
+        // 定制流程
+        setContentView();
+        initViews();
+        initListeners();
+        initData();
+        initConfig();
+    }
+
+    @Override
+    protected void onPause() {
+        super.onPause();
+        stopProgressDialog();
+        isShow = false;
+        // Shp.putSharePre(getApplicationContext(), "target", "lastActivityName", getCurrentTask());
+    }
+
+    @Override
+    protected void onStop() {
+        super.onStop();
+        // Log.i("BaseActivity", "清空请求队列");
+        BaseApplication.getApplication().getQueue().cancelAll(this);
+        tableText.clear();
+        tableEdit.clear();
+    }
+
+    @Override
+    public boolean onOptionsItemSelected(MenuItem item) {
+        if (item.getItemId() == android.R.id.home) {
+            finish();
+            return true;
+        }
+        return super.onOptionsItemSelected(item);
+    }
+
+    /**
+     * @throws : void
+     * @Description(功能描述) : 开始进度
+     * @author(作者) ： liuchunxu
+     * @date (开发日期) : 2015年8月31日 下午1:49:01
+     */
+    public void startProgressDialog() {
+        // if (mDialog == null) {
+        // mDialog = CustomProgressDialog.createDialog(this);
+        // mDialog.setCanceledOnTouchOutside(false);
+        // }
+        // mDialog.show();
+        lDialog = new LoadingDialog(this);
+        lDialog.setCanceledOnTouchOutside(false);
+        if (lDialog != null && !lDialog.isShowing()) {
+            lDialog.show();
+        }
+    }
+
+    /**
+     * @throws : void
+     * @Description(功能描述) : 结束进度
+     * @author(作者) ： liuchunxu
+     * @date (开发日期) : 2015年8月31日 下午1:49:14
+     */
+    public void stopProgressDialog() {
+        // if (mDialog != null) {
+        // mDialog.dismiss();
+        // mDialog = null;
+        // }
+        if (lDialog != null && lDialog.isShowing()) {
+            lDialog.hide();
+        }
+    }
+
+    /**
+     * @throws : void
+     * @Description(功能描述) : 结束进度
+     * @author(作者) ： liuchunxu
+     * @date (开发日期) : 2015年8月31日 下午1:49:14
+     */
+    public void stopProgressDialog(Integer resId, String msg, CloseListener listener) {
+        // if (mDialog != null) {
+        // mDialog.dismiss();
+        // mDialog = null;
+        // }
+        if (lDialog != null && lDialog.isShowing()) {
+            lDialog.hideWithDelay(resId, msg, listener);
+        }
+    }
+
+    /**
+     * @Description(功能描述) : 检查权限
+     * @author(作者) ：liuchunxu
+     * @date (开发日期)      ：2016-04-06 12:36
+     */
+    public void checkPermission(String[] permissions) {
+        if (Build.VERSION.SDK_INT >= 23) {
+            ArrayList<String> permissions_need = new ArrayList<String>();
+            for (int i = 0; i < permissions.length; i++) {
+                if (checkSelfPermission(permissions[i]) != PackageManager.PERMISSION_GRANTED) {
+                    permissions_need.add(permissions[i]);
+                }
+            }
+            // 申请权限
+            if (CommonUtil.isEmpty(permissions_need)) {
+                doNext();
+                return;
+            }
+            requestPermissions(permissions_need.toArray(new String[permissions_need.size()]), ResultCode.REQUEST_CODE_ASK_MULTIPLE_PERMISSIONS);
+        } else {
+            doNext();
+        }
+    }
+
+    @Override
+    public void onRequestPermissionsResult(int requestCode, String[] permissions, int[] grantResults) {
+        super.onRequestPermissionsResult(requestCode, permissions, grantResults);
+        doNext(requestCode, permissions, grantResults);
+    }
+
+    public void doNext(int requestCode, String[] permissions, int[] grantResults) {
+    }
+
+    public void doNext() {
+    }
+
+    /**
+     * @throws : void
+     * @Description(功能描述) : 加载布局
+     * @author(作者) ： liuchunxu
+     * @date (开发日期) : 2015年7月7日 下午3:50:18
+     */
+    public abstract void setContentView();
+
+    /**
+     * @throws : void
+     * @Description(功能描述) : 初始化组件
+     * @author(作者) ： liuchunxu
+     * @date (开发日期) : 2015年7月7日 下午3:50:27
+     */
+    public abstract void initViews();
+
+    /**
+     * @throws : void
+     * @Description(功能描述) : 设置监听
+     * @author(作者) ： liuchunxu
+     * @date (开发日期) : 2015年7月7日 下午3:50:35
+     */
+    public abstract void initListeners();
+
+    /**
+     * @throws : void
+     * @Description(功能描述) : 初始数据获取
+     * @author(作者) ： liuchunxu
+     * @date (开发日期) : 2015年7月7日 下午3:50:43
+     */
+    public abstract void initData();
+
+    /**
+     * @throws : void
+     * @Description(功能描述) : 相关设置
+     * @author(作者) ： liuchunxu
+     * @date (开发日期) : 2015年7月7日 下午4:22:23
+     */
+    public abstract void initConfig();
+}

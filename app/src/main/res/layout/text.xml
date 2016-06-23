@@ -1,0 +1,21 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="45dp"
+    android:background="@color/white"
+    android:gravity="center_vertical"
+    android:orientation="horizontal">
+
+    <TextView
+        android:id="@+id/leftText"
+        style="@style/DetailTextStyleLeft"
+        android:text="@string/ljyx" />
+
+    <EditText
+        android:id="@+id/edit"
+        style="@style/DetailTextStyleRight" />
+
+    <TextView
+        android:id="@+id/rightText"
+        style="@style/DetailTextStyleLeft"
+        android:text="(h)" />
+</LinearLayout>

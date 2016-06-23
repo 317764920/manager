@@ -1,0 +1,191 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <com.lltech.manager.widget.TopBar
+        android:id="@+id/top"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <com.lcx.mysdk.view.MtScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@color/white"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:padding="10dp"
+                        android:text="审核状态"
+                        android:textColor="@color/black"
+                        android:textSize="15sp" />
+
+                    <com.lltech.manager.widget.MyHorizontalScrollView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:scrollbars="none">
+
+                        <RadioGroup
+                            android:id="@+id/state"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:orientation="horizontal">
+
+                            <RadioButton
+                                android:id="@+id/state1"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:button="@null"
+                                android:padding="10dp"
+                                android:text="驳回"
+                                android:textColor="@color/selecter_query_bx" />
+
+                            <RadioButton
+                                android:id="@+id/state2"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:button="@null"
+                                android:checked="true"
+                                android:padding="10dp"
+                                android:text="通过"
+                                android:textColor="@color/selecter_query_bx" />
+                        </RadioGroup>
+                    </com.lltech.manager.widget.MyHorizontalScrollView>
+                </LinearLayout>
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:layout_margin="10dp"
+                    android:background="@color/grayLine" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:focusable="true"
+                    android:focusableInTouchMode="true">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:padding="10dp"
+                        android:text="审核意见"
+                        android:textColor="@color/black"
+                        android:textSize="15sp" />
+
+                    <EditText
+                        android:id="@+id/edit_ReviewedDesc"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:background="@color/white"
+                        android:hint="请输入审核意见"
+                        android:padding="10dp"
+                        android:textColor="@color/gray"
+                        android:textSize="15sp"/>
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:focusable="true"
+                android:focusableInTouchMode="true"
+                android:orientation="vertical">
+
+                <TableLayout
+                    style="@style/Table"
+                    android:layout_marginTop="@dimen/common_dp">
+
+                    <View style="@style/DetailViewStyle" />
+
+                    <TableRow
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+
+                        <TextView
+                            style="@style/DetailTextStyleLeft"
+                            android:text="维修单号" />
+
+                        <TextView
+                            android:id="@+id/txt_maintenance_number"
+                            style="@style/DetailTextStyleRight"
+                            android:hint="必填" />
+                    </TableRow>
+
+                    <View style="@style/DetailViewStyle" />
+
+                    <TableRow
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+
+                        <TextView
+                            style="@style/DetailTextStyleLeft"
+                            android:text="维修主题" />
+
+                        <TextView
+                            android:id="@+id/edit_maintenance_theme"
+                            style="@style/DetailTextStyleRight"
+                            android:hint="必填" />
+                    </TableRow>
+
+                    <View style="@style/DetailViewStyle" />
+
+                    <TableRow
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+
+                        <TextView
+                            style="@style/DetailTextStyleLeft"
+                            android:text="维修执行时间" />
+
+                        <TextView
+                            android:id="@+id/txt_maintenance_time"
+                            style="@style/DetailTextStyleRight1"
+                            android:hint="必填" />
+                    </TableRow>
+
+                    <View style="@style/DetailViewStyle" />
+                </TableLayout>
+
+                <TextView
+                    android:id="@+id/bx_size"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:padding="@dimen/common_dp"
+                    android:text="报修单，共0条"
+                    android:textColor="@color/heixiang" />
+
+                <ListView
+                    android:id="@+id/listView"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@color/white"
+                    android:divider="@drawable/divider_home"
+                    android:dividerHeight="1px" />
+
+                <View style="@style/DetailViewStyle" />
+
+            </LinearLayout>
+        </LinearLayout>
+    </com.lcx.mysdk.view.MtScrollView>
+</LinearLayout>

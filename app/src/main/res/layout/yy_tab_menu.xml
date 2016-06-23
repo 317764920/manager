@@ -1,0 +1,477 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="center"
+    android:orientation="vertical">
+
+    <com.lltech.manager.widget.TopBar
+        android:id="@+id/top"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <ScrollView
+        android:id="@+id/scrollview"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:padding="5dp"
+                android:text="@string/menu_by"
+                android:textColor="@color/black" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/menu_by_item1"
+                    style="@style/Text"
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:drawableLeft="@drawable/dialog_left"
+                    android:drawablePadding="10dp"
+                    android:padding="@dimen/common_dp"
+                    android:text="@string/menu_by_item1" />
+
+                <TextView
+                    android:id="@+id/menu_by_item2"
+                    style="@style/Text"
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:drawableLeft="@drawable/dialog_left"
+                    android:drawablePadding="10dp"
+                    android:padding="@dimen/common_dp"
+                    android:text="@string/menu_by_item2" />
+                />
+            </LinearLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1px"
+                android:background="@color/lightgray1" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/menu_by_item3"
+                    style="@style/Text"
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:drawableLeft="@drawable/dialog_left"
+                    android:drawablePadding="10dp"
+                    android:padding="@dimen/common_dp"
+                    android:text="@string/menu_by_item3" />
+
+                <TextView
+                    android:id="@+id/menu_by_item4"
+                    style="@style/Text"
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:drawableLeft="@drawable/dialog_left"
+                    android:drawablePadding="10dp"
+                    android:padding="@dimen/common_dp"
+                    android:text="@string/menu_by_item4" />
+            </LinearLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1px"
+                android:background="@color/lightgray1" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/menu_by_item5"
+                    style="@style/Text"
+                    android:layout_width="match_parent"
+                    android:background="@drawable/selecter_common"
+                    android:drawableLeft="@drawable/dialog_left"
+                    android:drawablePadding="10dp"
+                    android:padding="@dimen/common_dp"
+                    android:text="@string/menu_by_item5"
+                    android:textColor="@color/black" />
+            </LinearLayout>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:padding="5dp"
+                android:text="@string/menu_sb"
+                android:textColor="@color/black" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/menu_sb_item1"
+                    style="@style/Text"
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:drawableLeft="@drawable/dialog_left"
+                    android:drawablePadding="10dp"
+                    android:padding="@dimen/common_dp"
+                    android:text="@string/menu_sb_item1" />
+
+                <TextView
+                    android:id="@+id/menu_sb_item2"
+                    style="@style/Text"
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:drawableLeft="@drawable/dialog_left"
+                    android:drawablePadding="10dp"
+                    android:padding="@dimen/common_dp"
+                    android:text="@string/menu_sb_item2" />
+            </LinearLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1px"
+                android:background="@color/lightgray1" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/menu_sb_item3"
+                    style="@style/Text"
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:drawableLeft="@drawable/dialog_left"
+                    android:drawablePadding="10dp"
+                    android:padding="@dimen/common_dp"
+                    android:text="@string/menu_sb_item3" />
+
+                <TextView
+                    android:id="@+id/menu_sb_item4"
+                    style="@style/Text"
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:drawableLeft="@drawable/dialog_left"
+                    android:drawablePadding="10dp"
+                    android:padding="@dimen/common_dp"
+                    android:text="@string/menu_sb_item4" />
+            </LinearLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1px"
+                android:background="@color/lightgray1" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/menu_sb_item5"
+                    style="@style/Text"
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:drawableLeft="@drawable/dialog_left"
+                    android:drawablePadding="10dp"
+                    android:padding="@dimen/common_dp"
+                    android:text="@string/menu_sb_item5" />
+
+                <TextView
+                    android:id="@+id/menu_sb_item6"
+                    style="@style/Text"
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:drawableLeft="@drawable/dialog_left"
+                    android:drawablePadding="10dp"
+                    android:padding="@dimen/common_dp"
+                    android:text="@string/menu_sb_item6" />
+            </LinearLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1px"
+                android:background="@color/lightgray1" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/menu_sb_item7"
+                    style="@style/Text"
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:drawableLeft="@drawable/dialog_left"
+                    android:drawablePadding="10dp"
+                    android:padding="@dimen/common_dp"
+                    android:text="@string/menu_sb_item7" />
+            </LinearLayout>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:padding="5dp"
+                android:text="@string/menu_wh"
+                android:textColor="@color/black" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/menu_wh_item1"
+                    style="@style/Text"
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:drawableLeft="@drawable/dialog_left"
+                    android:drawablePadding="10dp"
+                    android:padding="@dimen/common_dp"
+                    android:text="@string/menu_wh_item1" />
+
+                <TextView
+                    android:id="@+id/menu_wh_item2"
+                    style="@style/Text"
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:drawableLeft="@drawable/dialog_left"
+                    android:drawablePadding="10dp"
+                    android:padding="@dimen/common_dp"
+                    android:text="@string/menu_wh_item2" />
+            </LinearLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1px"
+                android:background="@color/lightgray1" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/menu_wh_item4"
+                    style="@style/Text"
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:drawableLeft="@drawable/dialog_left"
+                    android:drawablePadding="10dp"
+                    android:padding="@dimen/common_dp"
+                    android:text="@string/menu_wh_item4" />
+
+            </LinearLayout>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:padding="5dp"
+                android:text="@string/menu_yx"
+                android:textColor="@color/black" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/menu_yx_item1"
+                    style="@style/Text"
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:drawableLeft="@drawable/dialog_left"
+                    android:drawablePadding="10dp"
+                    android:padding="@dimen/common_dp"
+                    android:text="@string/menu_yx_item1" />
+
+                <TextView
+                    android:id="@+id/menu_yx_item2"
+                    style="@style/Text"
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:drawableLeft="@drawable/dialog_left"
+                    android:drawablePadding="10dp"
+                    android:padding="@dimen/common_dp"
+                    android:text="@string/menu_yx_item2" />
+            </LinearLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1px"
+                android:background="@color/lightgray1" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/menu_yx_item3"
+                    style="@style/Text"
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:drawableLeft="@drawable/dialog_left"
+                    android:drawablePadding="10dp"
+                    android:padding="@dimen/common_dp"
+                    android:text="@string/menu_yx_item3" />
+
+                <TextView
+                    android:id="@+id/menu_yx_item4"
+                    style="@style/Text"
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:drawableLeft="@drawable/dialog_left"
+                    android:drawablePadding="10dp"
+                    android:padding="@dimen/common_dp"
+                    android:text="@string/menu_yx_item4" />
+            </LinearLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1px"
+                android:background="@color/lightgray1" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/menu_yx_item5"
+                    style="@style/Text"
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:drawableLeft="@drawable/dialog_left"
+                    android:drawablePadding="10dp"
+                    android:padding="@dimen/common_dp"
+                    android:text="@string/menu_yx_item5" />
+
+                <TextView
+                    android:id="@+id/menu_yx_item6"
+                    style="@style/Text"
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:drawableLeft="@drawable/dialog_left"
+                    android:drawablePadding="10dp"
+                    android:padding="@dimen/common_dp"
+                    android:text="@string/menu_yx_item6" />
+            </LinearLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1px"
+                android:background="@color/lightgray1" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/menu_yx_item7"
+                    style="@style/Text"
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:drawableLeft="@drawable/dialog_left"
+                    android:drawablePadding="10dp"
+                    android:padding="@dimen/common_dp"
+                    android:text="@string/menu_yx_item7" />
+            </LinearLayout>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:padding="5dp"
+                android:text="@string/menu_sj"
+                android:textColor="@color/black" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/menu_sj_item1"
+                    style="@style/Text"
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:drawableLeft="@drawable/dialog_left"
+                    android:drawablePadding="10dp"
+                    android:padding="@dimen/common_dp"
+                    android:text="@string/menu_sj_item1" />
+
+                <TextView
+                    android:id="@+id/menu_sj_item2"
+                    style="@style/Text"
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:drawableLeft="@drawable/dialog_left"
+                    android:drawablePadding="10dp"
+                    android:padding="@dimen/common_dp"
+                    android:text="@string/menu_sj_item2" />
+            </LinearLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1px"
+                android:background="@color/lightgray1" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/menu_sj_item3"
+                    style="@style/Text"
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:drawableLeft="@drawable/dialog_left"
+                    android:drawablePadding="10dp"
+                    android:padding="@dimen/common_dp"
+                    android:text="@string/menu_sj_item3" />
+
+                <TextView
+                    android:id="@+id/menu_sj_item4"
+                    style="@style/Text"
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:drawableLeft="@drawable/dialog_left"
+                    android:drawablePadding="10dp"
+                    android:padding="@dimen/common_dp"
+                    android:text="@string/menu_sj_item4" />
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

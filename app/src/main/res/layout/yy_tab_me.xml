@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/backgroundcolor"
+    android:orientation="vertical">
+
+    <com.lltech.manager.widget.TopBar
+        android:id="@+id/top"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1px"
+        android:background="@color/grayLine" />
+
+    <TextView
+        android:id="@+id/txt_admin"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:background="@drawable/selecter_common"
+        android:drawableEnd="@drawable/arrow"
+        android:drawablePadding="@dimen/common_dp"
+        android:drawableStart="@drawable/user_center"
+        android:gravity="center_vertical"
+        android:padding="10dp"
+        android:text="大漂亮啊(管理员)" />
+
+    <View
+        android:layout_width="wrap_content"
+        android:layout_height="1px"
+        android:background="@color/grayLine" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1px"
+        android:layout_marginTop="10dp"
+        android:background="@color/grayLine" />
+
+    <TextView
+        android:id="@+id/txt_pwd"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/selecter_common"
+        android:drawableEnd="@drawable/arrow"
+        android:drawablePadding="10dp"
+        android:drawableStart="@drawable/pwd"
+        android:gravity="center_vertical"
+        android:padding="10dp"
+        android:text="密码修改" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1px"
+        android:background="@color/grayLine" />
+
+    <TextView
+        android:id="@+id/txt_schedule"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/selecter_common"
+        android:drawableEnd="@drawable/arrow"
+        android:drawablePadding="10dp"
+        android:drawableStart="@drawable/schedule"
+        android:gravity="center_vertical"
+        android:padding="10dp"
+        android:text="我的日程" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1px"
+        android:background="@color/grayLine" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1px"
+        android:layout_marginTop="10dp"
+        android:background="@color/grayLine" />
+
+    <TextView
+        android:id="@+id/txt_config"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/selecter_common"
+        android:drawableEnd="@drawable/arrow"
+        android:drawablePadding="10dp"
+        android:drawableStart="@drawable/broadcast"
+        android:gravity="center_vertical"
+        android:padding="10dp"
+        android:text="设置" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1px"
+        android:background="@color/grayLine" />
+
+    <TextView
+        android:id="@+id/txt_me"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/selecter_common"
+        android:drawableEnd="@drawable/arrow"
+        android:drawablePadding="10dp"
+        android:drawableStart="@drawable/about"
+        android:gravity="center_vertical"
+        android:padding="10dp"
+        android:text="关于我们" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1px"
+        android:background="@color/grayLine" />
+
+</LinearLayout>

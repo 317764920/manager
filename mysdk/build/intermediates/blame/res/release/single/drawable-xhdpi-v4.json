@@ -1,0 +1,810 @@
+[
+    {
+        "merged": "F:\\StudioProjects\\manager\\mysdk\\build\\intermediates\\res\\merged\\release\\drawable-xhdpi-v4\\index_icon_menu_chenggong.png",
+        "source": "F:\\StudioProjects\\manager\\mysdk\\src\\main\\res\\drawable-xhdpi\\index_icon_menu_chenggong.png"
+    },
+    {
+        "merged": "D:\\StudioProjects\\manager\\mysdk\\build\\intermediates\\res\\merged\\release\\drawable-xhdpi-v4\\abc_ic_commit_search_api_mtrl_alpha.png",
+        "source": "D:\\StudioProjects\\manager\\mysdk\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\drawable-xhdpi-v4\\abc_ic_commit_search_api_mtrl_alpha.png"
+    },
+    {
+        "merged": "D:\\StudioProjects\\manager\\mysdk\\build\\intermediates\\res\\merged\\release\\drawable-xhdpi-v4\\abc_ic_star_half_black_36dp.png",
+        "source": "D:\\StudioProjects\\manager\\mysdk\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\drawable-xhdpi-v4\\abc_ic_star_half_black_36dp.png"
+    },
+    {
+        "merged": "D:\\StudioProjects\\manager\\mysdk\\build\\intermediates\\res\\merged\\release\\drawable-xhdpi-v4\\index_icon_gouxuan.png",
+        "source": "D:\\StudioProjects\\manager\\mysdk\\src\\main\\res\\drawable-xhdpi\\index_icon_gouxuan.png"
+    },
+    {
+        "merged": "D:\\StudioProjects\\manager\\mysdk\\build\\intermediates\\res\\merged\\release\\drawable-xhdpi-v4\\btn_selected.png",
+        "source": "D:\\StudioProjects\\manager\\mysdk\\src\\main\\res\\drawable-xhdpi\\btn_selected.png"
+    },
+    {
+        "merged": "F:\\StudioProjects\\manager\\mysdk\\build\\intermediates\\res\\merged\\release\\drawable-xhdpi-v4\\abc_textfield_search_default_mtrl_alpha.9.png",
+        "source": "F:\\StudioProjects\\manager\\mysdk\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.1\\res\\drawable-xhdpi-v4\\abc_textfield_search_default_mtrl_alpha.9.png"
+    },
+    {
+        "merged": "D:\\StudioProjects\\manager\\mysdk\\build\\intermediates\\res\\merged\\release\\drawable-xhdpi-v4\\abc_list_focused_holo.9.png",
+        "source": "D:\\StudioProjects\\manager\\mysdk\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\drawable-xhdpi-v4\\abc_list_focused_holo.9.png"
+    },
+    {
+        "merged": "F:\\StudioProjects\\manager\\mysdk\\build\\intermediates\\res\\merged\\release\\drawable-xhdpi-v4\\abc_btn_switch_to_on_mtrl_00001.9.png",
+        "source": "F:\\StudioProjects\\manager\\mysdk\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.1\\res\\drawable-xhdpi-v4\\abc_btn_switch_to_on_mtrl_00001.9.png"
+    },
+    {
+        "merged": "F:\\StudioProjects\\manager\\mysdk\\build\\intermediates\\res\\merged\\release\\drawable-xhdpi-v4\\btn_unselected.png",
+        "source": "F:\\StudioProjects\\manager\\mysdk\\src\\main\\res\\drawable-xhdpi\\btn_unselected.png"
+    },
+    {
+        "merged": "F:\\StudioProjects\\manager\\mysdk\\build\\intermediates\\res\\merged\\release\\drawable-xhdpi-v4\\abc_ic_star_black_16dp.png",
+        "source": "F:\\StudioProjects\\manager\\mysdk\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.1\\res\\drawable-xhdpi-v4\\abc_ic_star_black_16dp.png"
+    },
+    {
+        "merged": "D:\\StudioProjects\\manager\\mysdk\\build\\intermediates\\res\\merged\\release\\drawable-xhdpi-v4\\v4.png",
+        "source": "D:\\StudioProjects\\manager\\mysdk\\src\\main\\res\\drawable-xhdpi\\v4.png"
+    },
+    {
+        "merged": "D:\\StudioProjects\\manager\\mysdk\\build\\intermediates\\res\\merged\\release\\drawable-xhdpi-v4\\abc_ab_share_pack_mtrl_alpha.9.png",
+        "source": "D:\\StudioProjects\\manager\\mysdk\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\drawable-xhdpi-v4\\abc_ab_share_pack_mtrl_alpha.9.png"
+    },
+    {
+        "merged": "F:\\StudioProjects\\manager\\mysdk\\build\\intermediates\\res\\merged\\release\\drawable-xhdpi-v4\\abc_scrubber_track_mtrl_alpha.9.png",
+        "source": "F:\\StudioProjects\\manager\\mysdk\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.1\\res\\drawable-xhdpi-v4\\abc_scrubber_track_mtrl_alpha.9.png"
+    },
+    {
+        "merged": "F:\\StudioProjects\\manager\\mysdk\\build\\intermediates\\res\\merged\\release\\drawable-xhdpi-v4\\abc_list_divider_mtrl_alpha.9.png",
+        "source": "F:\\StudioProjects\\manager\\mysdk\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.1\\res\\drawable-xhdpi-v4\\abc_list_divider_mtrl_alpha.9.png"
+    },
+    {
+        "merged": "F:\\StudioProjects\\manager\\mysdk\\build\\intermediates\\res\\merged\\release\\drawable-xhdpi-v4\\asv.png",
+        "source": "F:\\StudioProjects\\manager\\mysdk\\src\\main\\res\\drawable-xhdpi\\asv.png"
+    },
+    {
+        "merged": "D:\\StudioProjects\\manager\\mysdk\\build\\intermediates\\res\\merged\\release\\drawable-xhdpi-v4\\tree_ec.png",
+        "source": "D:\\StudioProjects\\manager\\mysdk\\src\\main\\res\\drawable-xhdpi\\tree_ec.png"
+    },
+    {
+        "merged": "D:\\StudioProjects\\manager\\mysdk\\build\\intermediates\\res\\merged\\release\\drawable-xhdpi-v4\\abc_menu_hardkey_panel_mtrl_mult.9.png",
+        "source": "D:\\StudioProjects\\manager\\mysdk\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\drawable-xhdpi-v4\\abc_menu_hardkey_panel_mtrl_mult.9.png"
+    },
+    {
+        "merged": "F:\\StudioProjects\\manager\\mysdk\\build\\intermediates\\res\\merged\\release\\drawable-xhdpi-v4\\default_error.png",
+        "source": "F:\\StudioProjects\\manager\\mysdk\\src\\main\\res\\drawable-xhdpi\\default_error.png"
+    },
+    {
+        "merged": "F:\\StudioProjects\\manager\\mysdk\\build\\intermediates\\res\\merged\\release\\drawable-xhdpi-v4\\index_icon_close.png",
+        "source": "F:\\StudioProjects\\manager\\mysdk\\src\\main\\res\\drawable-xhdpi\\index_icon_close.png"
+    },
+    {
+        "merged": "F:\\StudioProjects\\manager\\mysdk\\build\\intermediates\\res\\merged\\release\\drawable-xhdpi-v4\\recent_contact_list_bg.9.png",
+        "source": "F:\\StudioProjects\\manager\\mysdk\\src\\main\\res\\drawable-xhdpi\\recent_contact_list_bg.9.png"
+    },
+    {
+        "merged": "F:\\StudioProjects\\manager\\mysdk\\build\\intermediates\\res\\merged\\release\\drawable-xhdpi-v4\\asy.png",
+        "source": "F:\\StudioProjects\\manager\\mysdk\\src\\main\\res\\drawable-xhdpi\\asy.png"
+    },
+    {
+        "merged": "F:\\StudioProjects\\manager\\mysdk\\build\\intermediates\\res\\merged\\release\\drawable-xhdpi-v4\\abc_ic_menu_selectall_mtrl_alpha.png",
+        "source": "F:\\StudioProjects\\manager\\mysdk\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.1\\res\\drawable-xhdpi-v4\\abc_ic_menu_selectall_mtrl_alpha.png"
+    },
+    {
+        "merged": "D:\\StudioProjects\\manager\\mysdk\\build\\intermediates\\res\\merged\\release\\drawable-xhdpi-v4\\title_bar_bg_one_row.9.png",
+        "source": "D:\\StudioProjects\\manager\\mysdk\\src\\main\\res\\drawable-xhdpi\\title_bar_bg_one_row.9.png"
+    },
+    {
+        "merged": "F:\\StudioProjects\\manager\\mysdk\\build\\intermediates\\res\\merged\\release\\drawable-xhdpi-v4\\abc_ab_share_pack_mtrl_alpha.9.png",
+        "source": "F:\\StudioProjects\\manager\\mysdk\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.1\\res\\drawable-xhdpi-v4\\abc_ab_share_pack_mtrl_alpha.9.png"
+    },
+    {
+        "merged": "D:\\StudioProjects\\manager\\mysdk\\build\\intermediates\\res\\merged\\release\\drawable-xhdpi-v4\\asy.png",
+        "source": "D:\\StudioProjects\\manager\\mysdk\\src\\main\\res\\drawable-xhdpi\\asy.png"
+    },
+    {
+        "merged": "D:\\StudioProjects\\manager\\mysdk\\build\\intermediates\\res\\merged\\release\\drawable-xhdpi-v4\\loading_08.png",
+        "source": "D:\\StudioProjects\\manager\\mysdk\\src\\main\\res\\drawable-xhdpi\\loading_08.png"
+    },
+    {
+        "merged": "D:\\StudioProjects\\manager\\mysdk\\build\\intermediates\\res\\merged\\release\\drawable-xhdpi-v4\\abc_tab_indicator_mtrl_alpha.9.png",
+        "source": "D:\\StudioProjects\\manager\\mysdk\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\drawable-xhdpi-v4\\abc_tab_indicator_mtrl_alpha.9.png"
+    },
+    {
+        "merged": "F:\\StudioProjects\\manager\\mysdk\\build\\intermediates\\res\\merged\\release\\drawable-xhdpi-v4\\ic_launcher.png",
+        "source": "F:\\StudioProjects\\manager\\mysdk\\src\\main\\res\\drawable-xhdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "F:\\StudioProjects\\manager\\mysdk\\build\\intermediates\\res\\merged\\release\\drawable-xhdpi-v4\\abc_btn_rating_star_off_mtrl_alpha.png",
+        "source": "F:\\StudioProjects\\manager\\mysdk\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.1\\res\\drawable-xhdpi-v4\\abc_btn_rating_star_off_mtrl_alpha.png"
+    },
+    {
+        "merged": "D:\\StudioProjects\\manager\\mysdk\\build\\intermediates\\res\\merged\\release\\drawable-xhdpi-v4\\abc_btn_radio_to_on_mtrl_000.png",
+        "source": "D:\\StudioProjects\\manager\\mysdk\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\drawable-xhdpi-v4\\abc_btn_radio_to_on_mtrl_000.png"
+    },
+    {
+        "merged": "D:\\StudioProjects\\manager\\mysdk\\build\\intermediates\\res\\merged\\release\\drawable-xhdpi-v4\\abc_ic_menu_share_mtrl_alpha.png",
+        "source": "D:\\StudioProjects\\manager\\mysdk\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\drawable-xhdpi-v4\\abc_ic_menu_share_mtrl_alpha.png"
+    },
+    {
+        "merged": "D:\\StudioProjects\\manager\\mysdk\\build\\intermediates\\res\\merged\\release\\drawable-xhdpi-v4\\abc_scrubber_control_off_mtrl_alpha.png",
+        "source": "D:\\StudioProjects\\manager\\mysdk\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\drawable-xhdpi-v4\\abc_scrubber_control_off_mtrl_alpha.png"
+    },
+    {
+        "merged": "F:\\StudioProjects\\manager\\mysdk\\build\\intermediates\\res\\merged\\release\\drawable-xhdpi-v4\\abc_ic_commit_search_api_mtrl_alpha.png",
+        "source": "F:\\StudioProjects\\manager\\mysdk\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.1\\res\\drawable-xhdpi-v4\\abc_ic_commit_search_api_mtrl_alpha.png"
+    },
+    {
+        "merged": "F:\\StudioProjects\\manager\\mysdk\\build\\intermediates\\res\\merged\\release\\drawable-xhdpi-v4\\v6.png",
+        "source": "F:\\StudioProjects\\manager\\mysdk\\src\\main\\res\\drawable-xhdpi\\v6.png"
+    },
+    {
+        "merged": "D:\\StudioProjects\\manager\\mysdk\\build\\intermediates\\res\\merged\\release\\drawable-xhdpi-v4\\v3.png",
+        "source": "D:\\StudioProjects\\manager\\mysdk\\src\\main\\res\\drawable-xhdpi\\v3.png"
+    },
+    {
+        "merged": "F:\\StudioProjects\\manager\\mysdk\\build\\intermediates\\res\\merged\\release\\drawable-xhdpi-v4\\abc_switch_track_mtrl_alpha.9.png",
+        "source": "F:\\StudioProjects\\manager\\mysdk\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.1\\res\\drawable-xhdpi-v4\\abc_switch_track_mtrl_alpha.9.png"
+    },
+    {
+        "merged": "D:\\StudioProjects\\manager\\mysdk\\build\\intermediates\\res\\merged\\release\\drawable-xhdpi-v4\\index_icon_menu_tianjia.png",
+        "source": "D:\\StudioProjects\\manager\\mysdk\\src\\main\\res\\drawable-xhdpi\\index_icon_menu_tianjia.png"
+    },
+    {
+        "merged": "F:\\StudioProjects\\manager\\mysdk\\build\\intermediates\\res\\merged\\release\\drawable-xhdpi-v4\\recorder.png",
+        "source": "F:\\StudioProjects\\manager\\mysdk\\src\\main\\res\\drawable-xhdpi\\recorder.png"
+    },
+    {
+        "merged": "F:\\StudioProjects\\manager\\mysdk\\build\\intermediates\\res\\merged\\release\\drawable-xhdpi-v4\\load_circle.png",
+        "source": "F:\\StudioProjects\\manager\\mysdk\\src\\main\\res\\drawable-xhdpi\\load_circle.png"
+    },
+    {
+        "merged": "D:\\StudioProjects\\manager\\mysdk\\build\\intermediates\\res\\merged\\release\\drawable-xhdpi-v4\\loading_06.png",
+        "source": "D:\\StudioProjects\\manager\\mysdk\\src\\main\\res\\drawable-xhdpi\\loading_06.png"
+    },
+    {
+        "merged": "D:\\StudioProjects\\manager\\mysdk\\build\\intermediates\\res\\merged\\release\\drawable-xhdpi-v4\\abc_ic_voice_search_api_mtrl_alpha.png",
+        "source": "D:\\StudioProjects\\manager\\mysdk\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\drawable-xhdpi-v4\\abc_ic_voice_search_api_mtrl_alpha.png"
+    },
+    {
+        "merged": "F:\\StudioProjects\\manager\\mysdk\\build\\intermediates\\res\\merged\\release\\drawable-xhdpi-v4\\index_icon_gouxuan.png",
+        "source": "F:\\StudioProjects\\manager\\mysdk\\src\\main\\res\\drawable-xhdpi\\index_icon_gouxuan.png"
+    },
+    {
+        "merged": "F:\\StudioProjects\\manager\\mysdk\\build\\intermediates\\res\\merged\\release\\drawable-xhdpi-v4\\abc_menu_hardkey_panel_mtrl_mult.9.png",
+        "source": "F:\\StudioProjects\\manager\\mysdk\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.1\\res\\drawable-xhdpi-v4\\abc_menu_hardkey_panel_mtrl_mult.9.png"
+    },
+    {
+        "merged": "D:\\StudioProjects\\manager\\mysdk\\build\\intermediates\\res\\merged\\release\\drawable-xhdpi-v4\\recorder.png",
+        "source": "D:\\StudioProjects\\manager\\mysdk\\src\\main\\res\\drawable-xhdpi\\recorder.png"
+    },
+    {
+        "merged": "D:\\StudioProjects\\manager\\mysdk\\build\\intermediates\\res\\merged\\release\\drawable-xhdpi-v4\\abc_ic_ab_back_mtrl_am_alpha.png",
+        "source": "D:\\StudioProjects\\manager\\mysdk\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\drawable-xhdpi-v4\\abc_ic_ab_back_mtrl_am_alpha.png"
+    },
+    {
+        "merged": "D:\\StudioProjects\\manager\\mysdk\\build\\intermediates\\res\\merged\\release\\drawable-xhdpi-v4\\chatto_bg_focused.9.png",
+        "source": "D:\\StudioProjects\\manager\\mysdk\\src\\main\\res\\drawable-xhdpi\\chatto_bg_focused.9.png"
+    },
+    {
+        "merged": "D:\\StudioProjects\\manager\\mysdk\\build\\intermediates\\res\\merged\\release\\drawable-xhdpi-v4\\v_anim3.png",
+        "source": "D:\\StudioProjects\\manager\\mysdk\\src\\main\\res\\drawable-xhdpi\\v_anim3.png"
+    },
+    {
+        "merged": "F:\\StudioProjects\\manager\\mysdk\\build\\intermediates\\res\\merged\\release\\drawable-xhdpi-v4\\abc_popup_background_mtrl_mult.9.png",
+        "source": "F:\\StudioProjects\\manager\\mysdk\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.1\\res\\drawable-xhdpi-v4\\abc_popup_background_mtrl_mult.9.png"
+    },
+    {
+        "merged": "F:\\StudioProjects\\manager\\mysdk\\build\\intermediates\\res\\merged\\release\\drawable-xhdpi-v4\\v4.png",
+        "source": "F:\\StudioProjects\\manager\\mysdk\\src\\main\\res\\drawable-xhdpi\\v4.png"
+    },
+    {
+        "merged": "F:\\StudioProjects\\manager\\mysdk\\build\\intermediates\\res\\merged\\release\\drawable-xhdpi-v4\\abc_ic_clear_mtrl_alpha.png",
+        "source": "F:\\StudioProjects\\manager\\mysdk\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.1\\res\\drawable-xhdpi-v4\\abc_ic_clear_mtrl_alpha.png"
+    },
+    {
+        "merged": "F:\\StudioProjects\\manager\\mysdk\\build\\intermediates\\res\\merged\\release\\drawable-xhdpi-v4\\loading_12.png",
+        "source": "F:\\StudioProjects\\manager\\mysdk\\src\\main\\res\\drawable-xhdpi\\loading_12.png"
+    },
+    {
+        "merged": "D:\\StudioProjects\\manager\\mysdk\\build\\intermediates\\res\\merged\\release\\drawable-xhdpi-v4\\abc_btn_radio_to_on_mtrl_015.png",
+        "source": "D:\\StudioProjects\\manager\\mysdk\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\drawable-xhdpi-v4\\abc_btn_radio_to_on_mtrl_015.png"
+    },
+    {
+        "merged": "D:\\StudioProjects\\manager\\mysdk\\build\\intermediates\\res\\merged\\release\\drawable-xhdpi-v4\\abc_spinner_mtrl_am_alpha.9.png",
+        "source": "D:\\StudioProjects\\manager\\mysdk\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\drawable-xhdpi-v4\\abc_spinner_mtrl_am_alpha.9.png"
+    },
+    {
+        "merged": "D:\\StudioProjects\\manager\\mysdk\\build\\intermediates\\res\\merged\\release\\drawable-xhdpi-v4\\loading_02.png",
+        "source": "D:\\StudioProjects\\manager\\mysdk\\src\\main\\res\\drawable-xhdpi\\loading_02.png"
+    },
+    {
+        "merged": "F:\\StudioProjects\\manager\\mysdk\\build\\intermediates\\res\\merged\\release\\drawable-xhdpi-v4\\abc_btn_rating_star_on_mtrl_alpha.png",
+        "source": "F:\\StudioProjects\\manager\\mysdk\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.1\\res\\drawable-xhdpi-v4\\abc_btn_rating_star_on_mtrl_alpha.png"
+    },
+    {
+        "merged": "D:\\StudioProjects\\manager\\mysdk\\build\\intermediates\\res\\merged\\release\\drawable-xhdpi-v4\\abc_ic_clear_mtrl_alpha.png",
+        "source": "D:\\StudioProjects\\manager\\mysdk\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\drawable-xhdpi-v4\\abc_ic_clear_mtrl_alpha.png"
+    },
+    {
+        "merged": "F:\\StudioProjects\\manager\\mysdk\\build\\intermediates\\res\\merged\\release\\drawable-xhdpi-v4\\voice_to_short.png",
+        "source": "F:\\StudioProjects\\manager\\mysdk\\src\\main\\res\\drawable-xhdpi\\voice_to_short.png"
+    },
+    {
+        "merged": "F:\\StudioProjects\\manager\\mysdk\\build\\intermediates\\res\\merged\\release\\drawable-xhdpi-v4\\default_ptr_rotate.png",
+        "source": "F:\\StudioProjects\\manager\\mysdk\\src\\main\\res\\drawable-xhdpi\\default_ptr_rotate.png"
+    },
+    {
+        "merged": "F:\\StudioProjects\\manager\\mysdk\\build\\intermediates\\res\\merged\\release\\drawable-xhdpi-v4\\abc_ic_menu_cut_mtrl_alpha.png",
+        "source": "F:\\StudioProjects\\manager\\mysdk\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.1\\res\\drawable-xhdpi-v4\\abc_ic_menu_cut_mtrl_alpha.png"
+    },
+    {
+        "merged": "F:\\StudioProjects\\manager\\mysdk\\build\\intermediates\\res\\merged\\release\\drawable-xhdpi-v4\\abc_textfield_default_mtrl_alpha.9.png",
+        "source": "F:\\StudioProjects\\manager\\mysdk\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.1\\res\\drawable-xhdpi-v4\\abc_textfield_default_mtrl_alpha.9.png"
+    },
+    {
+        "merged": "F:\\StudioProjects\\manager\\mysdk\\build\\intermediates\\res\\merged\\release\\drawable-xhdpi-v4\\default_ptr_flip.png",
+        "source": "F:\\StudioProjects\\manager\\mysdk\\src\\main\\res\\drawable-xhdpi\\default_ptr_flip.png"
+    },
+    {
+        "merged": "D:\\StudioProjects\\manager\\mysdk\\build\\intermediates\\res\\merged\\release\\drawable-xhdpi-v4\\abc_ic_go_search_api_mtrl_alpha.png",
+        "source": "D:\\StudioProjects\\manager\\mysdk\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\drawable-xhdpi-v4\\abc_ic_go_search_api_mtrl_alpha.png"
+    },
+    {
+        "merged": "D:\\StudioProjects\\manager\\mysdk\\build\\intermediates\\res\\merged\\release\\drawable-xhdpi-v4\\tree_ex.png",
+        "source": "D:\\StudioProjects\\manager\\mysdk\\src\\main\\res\\drawable-xhdpi\\tree_ex.png"
+    },
+    {
+        "merged": "F:\\StudioProjects\\manager\\mysdk\\build\\intermediates\\res\\merged\\release\\drawable-xhdpi-v4\\loading_02.png",
+        "source": "F:\\StudioProjects\\manager\\mysdk\\src\\main\\res\\drawable-xhdpi\\loading_02.png"
+    },
+    {
+        "merged": "D:\\StudioProjects\\manager\\mysdk\\build\\intermediates\\res\\merged\\release\\drawable-xhdpi-v4\\abc_btn_rating_star_off_mtrl_alpha.png",
+        "source": "D:\\StudioProjects\\manager\\mysdk\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\drawable-xhdpi-v4\\abc_btn_rating_star_off_mtrl_alpha.png"
+    },
+    {
+        "merged": "F:\\StudioProjects\\manager\\mysdk\\build\\intermediates\\res\\merged\\release\\drawable-xhdpi-v4\\abc_ic_search_api_mtrl_alpha.png",
+        "source": "F:\\StudioProjects\\manager\\mysdk\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.1\\res\\drawable-xhdpi-v4\\abc_ic_search_api_mtrl_alpha.png"
+    },
+    {
+        "merged": "D:\\StudioProjects\\manager\\mysdk\\build\\intermediates\\res\\merged\\release\\drawable-xhdpi-v4\\abc_scrubber_control_to_pressed_mtrl_000.png",
+        "source": "D:\\StudioProjects\\manager\\mysdk\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\drawable-xhdpi-v4\\abc_scrubber_control_to_pressed_mtrl_000.png"
+    },
+    {
+        "merged": "F:\\StudioProjects\\manager\\mysdk\\build\\intermediates\\res\\merged\\release\\drawable-xhdpi-v4\\default_check_s.png",
+        "source": "F:\\StudioProjects\\manager\\mysdk\\src\\main\\res\\drawable-xhdpi\\default_check_s.png"
+    },
+    {
+        "merged": "D:\\StudioProjects\\manager\\mysdk\\build\\intermediates\\res\\merged\\release\\drawable-xhdpi-v4\\recent_contact_list_bg.9.png",
+        "source": "D:\\StudioProjects\\manager\\mysdk\\src\\main\\res\\drawable-xhdpi\\recent_contact_list_bg.9.png"
+    },
+    {
+        "merged": "F:\\StudioProjects\\manager\\mysdk\\build\\intermediates\\res\\merged\\release\\drawable-xhdpi-v4\\abc_tab_indicator_mtrl_alpha.9.png",
+        "source": "F:\\StudioProjects\\manager\\mysdk\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.1\\res\\drawable-xhdpi-v4\\abc_tab_indicator_mtrl_alpha.9.png"
+    },
+    {
+        "merged": "F:\\StudioProjects\\manager\\mysdk\\build\\intermediates\\res\\merged\\release\\drawable-xhdpi-v4\\indicator_arrow.png",
+        "source": "F:\\StudioProjects\\manager\\mysdk\\src\\main\\res\\drawable-xhdpi\\indicator_arrow.png"
+    },
+    {
+        "merged": "D:\\StudioProjects\\manager\\mysdk\\build\\intermediates\\res\\merged\\release\\drawable-xhdpi-v4\\default_ptr_flip.png",
+        "source": "D:\\StudioProjects\\manager\\mysdk\\src\\main\\res\\drawable-xhdpi\\default_ptr_flip.png"
+    },
+    {
+        "merged": "D:\\StudioProjects\\manager\\mysdk\\build\\intermediates\\res\\merged\\release\\drawable-xhdpi-v4\\loading_04.png",
+        "source": "D:\\StudioProjects\\manager\\mysdk\\src\\main\\res\\drawable-xhdpi\\loading_04.png"
+    },
+    {
+        "merged": "F:\\StudioProjects\\manager\\mysdk\\build\\intermediates\\res\\merged\\release\\drawable-xhdpi-v4\\abc_ic_menu_paste_mtrl_am_alpha.png",
+        "source": "F:\\StudioProjects\\manager\\mysdk\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.1\\res\\drawable-xhdpi-v4\\abc_ic_menu_paste_mtrl_am_alpha.png"
+    },
+    {
+        "merged": "F:\\StudioProjects\\manager\\mysdk\\build\\intermediates\\res\\merged\\release\\drawable-xhdpi-v4\\loading_04.png",
+        "source": "F:\\StudioProjects\\manager\\mysdk\\src\\main\\res\\drawable-xhdpi\\loading_04.png"
+    },
+    {
+        "merged": "F:\\StudioProjects\\manager\\mysdk\\build\\intermediates\\res\\merged\\release\\drawable-xhdpi-v4\\abc_ic_star_half_black_16dp.png",
+        "source": "F:\\StudioProjects\\manager\\mysdk\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.1\\res\\drawable-xhdpi-v4\\abc_ic_star_half_black_16dp.png"
+    },
+    {
+        "merged": "D:\\StudioProjects\\manager\\mysdk\\build\\intermediates\\res\\merged\\release\\drawable-xhdpi-v4\\loading_09.png",
+        "source": "D:\\StudioProjects\\manager\\mysdk\\src\\main\\res\\drawable-xhdpi\\loading_09.png"
+    },
+    {
+        "merged": "F:\\StudioProjects\\manager\\mysdk\\build\\intermediates\\res\\merged\\release\\drawable-xhdpi-v4\\abc_list_selector_disabled_holo_dark.9.png",
+        "source": "F:\\StudioProjects\\manager\\mysdk\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.1\\res\\drawable-xhdpi-v4\\abc_list_selector_disabled_holo_dark.9.png"
+    },
+    {
+        "merged": "F:\\StudioProjects\\manager\\mysdk\\build\\intermediates\\res\\merged\\release\\drawable-xhdpi-v4\\tree_ex.png",
+        "source": "F:\\StudioProjects\\manager\\mysdk\\src\\main\\res\\drawable-xhdpi\\tree_ex.png"
+    },
+    {
+        "merged": "F:\\StudioProjects\\manager\\mysdk\\build\\intermediates\\res\\merged\\release\\drawable-xhdpi-v4\\abc_ic_star_black_36dp.png",
+        "source": "F:\\StudioProjects\\manager\\mysdk\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.1\\res\\drawable-xhdpi-v4\\abc_ic_star_black_36dp.png"
+    },
+    {
+        "merged": "F:\\StudioProjects\\manager\\mysdk\\build\\intermediates\\res\\merged\\release\\drawable-xhdpi-v4\\no_pic.png",
+        "source": "F:\\StudioProjects\\manager\\mysdk\\src\\main\\res\\drawable-xhdpi\\no_pic.png"
+    },
+    {
+        "merged": "D:\\StudioProjects\\manager\\mysdk\\build\\intermediates\\res\\merged\\release\\drawable-xhdpi-v4\\loading_10.png",
+        "source": "D:\\StudioProjects\\manager\\mysdk\\src\\main\\res\\drawable-xhdpi\\loading_10.png"
+    },
+    {
+        "merged": "D:\\StudioProjects\\manager\\mysdk\\build\\intermediates\\res\\merged\\release\\drawable-xhdpi-v4\\abc_ic_menu_copy_mtrl_am_alpha.png",
+        "source": "D:\\StudioProjects\\manager\\mysdk\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\drawable-xhdpi-v4\\abc_ic_menu_copy_mtrl_am_alpha.png"
+    },
+    {
+        "merged": "D:\\StudioProjects\\manager\\mysdk\\build\\intermediates\\res\\merged\\release\\drawable-xhdpi-v4\\abc_textfield_activated_mtrl_alpha.9.png",
+        "source": "D:\\StudioProjects\\manager\\mysdk\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\drawable-xhdpi-v4\\abc_textfield_activated_mtrl_alpha.9.png"
+    },
+    {
+        "merged": "D:\\StudioProjects\\manager\\mysdk\\build\\intermediates\\res\\merged\\release\\drawable-xhdpi-v4\\abc_btn_switch_to_on_mtrl_00012.9.png",
+        "source": "D:\\StudioProjects\\manager\\mysdk\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\drawable-xhdpi-v4\\abc_btn_switch_to_on_mtrl_00012.9.png"
+    },
+    {
+        "merged": "D:\\StudioProjects\\manager\\mysdk\\build\\intermediates\\res\\merged\\release\\drawable-xhdpi-v4\\loading_03.png",
+        "source": "D:\\StudioProjects\\manager\\mysdk\\src\\main\\res\\drawable-xhdpi\\loading_03.png"
+    },
+    {
+        "merged": "F:\\StudioProjects\\manager\\mysdk\\build\\intermediates\\res\\merged\\release\\drawable-xhdpi-v4\\abc_list_longpressed_holo.9.png",
+        "source": "F:\\StudioProjects\\manager\\mysdk\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.1\\res\\drawable-xhdpi-v4\\abc_list_longpressed_holo.9.png"
+    },
+    {
+        "merged": "F:\\StudioProjects\\manager\\mysdk\\build\\intermediates\\res\\merged\\release\\drawable-xhdpi-v4\\chatto_bg_focused.9.png",
+        "source": "F:\\StudioProjects\\manager\\mysdk\\src\\main\\res\\drawable-xhdpi\\chatto_bg_focused.9.png"
+    },
+    {
+        "merged": "D:\\StudioProjects\\manager\\mysdk\\build\\intermediates\\res\\merged\\release\\drawable-xhdpi-v4\\abc_textfield_search_default_mtrl_alpha.9.png",
+        "source": "D:\\StudioProjects\\manager\\mysdk\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\drawable-xhdpi-v4\\abc_textfield_search_default_mtrl_alpha.9.png"
+    },
+    {
+        "merged": "D:\\StudioProjects\\manager\\mysdk\\build\\intermediates\\res\\merged\\release\\drawable-xhdpi-v4\\indicator_arrow.png",
+        "source": "D:\\StudioProjects\\manager\\mysdk\\src\\main\\res\\drawable-xhdpi\\indicator_arrow.png"
+    },
+    {
+        "merged": "F:\\StudioProjects\\manager\\mysdk\\build\\intermediates\\res\\merged\\release\\drawable-xhdpi-v4\\cancel.png",
+        "source": "F:\\StudioProjects\\manager\\mysdk\\src\\main\\res\\drawable-xhdpi\\cancel.png"
+    },
+    {
+        "merged": "D:\\StudioProjects\\manager\\mysdk\\build\\intermediates\\res\\merged\\release\\drawable-xhdpi-v4\\loading_12.png",
+        "source": "D:\\StudioProjects\\manager\\mysdk\\src\\main\\res\\drawable-xhdpi\\loading_12.png"
+    },
+    {
+        "merged": "F:\\StudioProjects\\manager\\mysdk\\build\\intermediates\\res\\merged\\release\\drawable-xhdpi-v4\\abc_scrubber_primary_mtrl_alpha.9.png",
+        "source": "F:\\StudioProjects\\manager\\mysdk\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.1\\res\\drawable-xhdpi-v4\\abc_scrubber_primary_mtrl_alpha.9.png"
+    },
+    {
+        "merged": "F:\\StudioProjects\\manager\\mysdk\\build\\intermediates\\res\\merged\\release\\drawable-xhdpi-v4\\loading_11.png",
+        "source": "F:\\StudioProjects\\manager\\mysdk\\src\\main\\res\\drawable-xhdpi\\loading_11.png"
+    },
+    {
+        "merged": "D:\\StudioProjects\\manager\\mysdk\\build\\intermediates\\res\\merged\\release\\drawable-xhdpi-v4\\abc_ic_star_black_16dp.png",
+        "source": "D:\\StudioProjects\\manager\\mysdk\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\drawable-xhdpi-v4\\abc_ic_star_black_16dp.png"
+    },
+    {
+        "merged": "F:\\StudioProjects\\manager\\mysdk\\build\\intermediates\\res\\merged\\release\\drawable-xhdpi-v4\\v1.png",
+        "source": "F:\\StudioProjects\\manager\\mysdk\\src\\main\\res\\drawable-xhdpi\\v1.png"
+    },
+    {
+        "merged": "F:\\StudioProjects\\manager\\mysdk\\build\\intermediates\\res\\merged\\release\\drawable-xhdpi-v4\\imgbg.png",
+        "source": "F:\\StudioProjects\\manager\\mysdk\\src\\main\\res\\drawable-xhdpi\\imgbg.png"
+    },
+    {
+        "merged": "F:\\StudioProjects\\manager\\mysdk\\build\\intermediates\\res\\merged\\release\\drawable-xhdpi-v4\\loading_01.png",
+        "source": "F:\\StudioProjects\\manager\\mysdk\\src\\main\\res\\drawable-xhdpi\\loading_01.png"
+    },
+    {
+        "merged": "D:\\StudioProjects\\manager\\mysdk\\build\\intermediates\\res\\merged\\release\\drawable-xhdpi-v4\\imgbg.png",
+        "source": "D:\\StudioProjects\\manager\\mysdk\\src\\main\\res\\drawable-xhdpi\\imgbg.png"
+    },
+    {
+        "merged": "F:\\StudioProjects\\manager\\mysdk\\build\\intermediates\\res\\merged\\release\\drawable-xhdpi-v4\\loading_06.png",
+        "source": "F:\\StudioProjects\\manager\\mysdk\\src\\main\\res\\drawable-xhdpi\\loading_06.png"
+    },
+    {
+        "merged": "F:\\StudioProjects\\manager\\mysdk\\build\\intermediates\\res\\merged\\release\\drawable-xhdpi-v4\\index_icon_add.png",
+        "source": "F:\\StudioProjects\\manager\\mysdk\\src\\main\\res\\drawable-xhdpi\\index_icon_add.png"
+    },
+    {
+        "merged": "D:\\StudioProjects\\manager\\mysdk\\build\\intermediates\\res\\merged\\release\\drawable-xhdpi-v4\\qrcode_scan_line.png",
+        "source": "D:\\StudioProjects\\manager\\mysdk\\src\\main\\res\\drawable-xhdpi\\qrcode_scan_line.png"
+    },
+    {
+        "merged": "D:\\StudioProjects\\manager\\mysdk\\build\\intermediates\\res\\merged\\release\\drawable-xhdpi-v4\\abc_ic_menu_selectall_mtrl_alpha.png",
+        "source": "D:\\StudioProjects\\manager\\mysdk\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\drawable-xhdpi-v4\\abc_ic_menu_selectall_mtrl_alpha.png"
+    },
+    {
+        "merged": "D:\\StudioProjects\\manager\\mysdk\\build\\intermediates\\res\\merged\\release\\drawable-xhdpi-v4\\abc_cab_background_top_mtrl_alpha.9.png",
+        "source": "D:\\StudioProjects\\manager\\mysdk\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\drawable-xhdpi-v4\\abc_cab_background_top_mtrl_alpha.9.png"
+    },
+    {
+        "merged": "D:\\StudioProjects\\manager\\mysdk\\build\\intermediates\\res\\merged\\release\\drawable-xhdpi-v4\\abc_btn_switch_to_on_mtrl_00001.9.png",
+        "source": "D:\\StudioProjects\\manager\\mysdk\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\drawable-xhdpi-v4\\abc_btn_switch_to_on_mtrl_00001.9.png"
+    },
+    {
+        "merged": "D:\\StudioProjects\\manager\\mysdk\\build\\intermediates\\res\\merged\\release\\drawable-xhdpi-v4\\back_s.png",
+        "source": "D:\\StudioProjects\\manager\\mysdk\\src\\main\\res\\drawable-xhdpi\\back_s.png"
+    },
+    {
+        "merged": "F:\\StudioProjects\\manager\\mysdk\\build\\intermediates\\res\\merged\\release\\drawable-xhdpi-v4\\abc_textfield_activated_mtrl_alpha.9.png",
+        "source": "F:\\StudioProjects\\manager\\mysdk\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.1\\res\\drawable-xhdpi-v4\\abc_textfield_activated_mtrl_alpha.9.png"
+    },
+    {
+        "merged": "F:\\StudioProjects\\manager\\mysdk\\build\\intermediates\\res\\merged\\release\\drawable-xhdpi-v4\\abc_ic_menu_share_mtrl_alpha.png",
+        "source": "F:\\StudioProjects\\manager\\mysdk\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.1\\res\\drawable-xhdpi-v4\\abc_ic_menu_share_mtrl_alpha.png"
+    },
+    {
+        "merged": "D:\\StudioProjects\\manager\\mysdk\\build\\intermediates\\res\\merged\\release\\drawable-xhdpi-v4\\abc_scrubber_track_mtrl_alpha.9.png",
+        "source": "D:\\StudioProjects\\manager\\mysdk\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\drawable-xhdpi-v4\\abc_scrubber_track_mtrl_alpha.9.png"
+    },
+    {
+        "merged": "F:\\StudioProjects\\manager\\mysdk\\build\\intermediates\\res\\merged\\release\\drawable-xhdpi-v4\\v_anim1.png",
+        "source": "F:\\StudioProjects\\manager\\mysdk\\src\\main\\res\\drawable-xhdpi\\v_anim1.png"
+    },
+    {
+        "merged": "D:\\StudioProjects\\manager\\mysdk\\build\\intermediates\\res\\merged\\release\\drawable-xhdpi-v4\\cancel.png",
+        "source": "D:\\StudioProjects\\manager\\mysdk\\src\\main\\res\\drawable-xhdpi\\cancel.png"
+    },
+    {
+        "merged": "F:\\StudioProjects\\manager\\mysdk\\build\\intermediates\\res\\merged\\release\\drawable-xhdpi-v4\\abc_cab_background_top_mtrl_alpha.9.png",
+        "source": "F:\\StudioProjects\\manager\\mysdk\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.1\\res\\drawable-xhdpi-v4\\abc_cab_background_top_mtrl_alpha.9.png"
+    },
+    {
+        "merged": "D:\\StudioProjects\\manager\\mysdk\\build\\intermediates\\res\\merged\\release\\drawable-xhdpi-v4\\v2.png",
+        "source": "D:\\StudioProjects\\manager\\mysdk\\src\\main\\res\\drawable-xhdpi\\v2.png"
+    },
+    {
+        "merged": "F:\\StudioProjects\\manager\\mysdk\\build\\intermediates\\res\\merged\\release\\drawable-xhdpi-v4\\default_check.png",
+        "source": "F:\\StudioProjects\\manager\\mysdk\\src\\main\\res\\drawable-xhdpi\\default_check.png"
+    },
+    {
+        "merged": "F:\\StudioProjects\\manager\\mysdk\\build\\intermediates\\res\\merged\\release\\drawable-xhdpi-v4\\loading_10.png",
+        "source": "F:\\StudioProjects\\manager\\mysdk\\src\\main\\res\\drawable-xhdpi\\loading_10.png"
+    },
+    {
+        "merged": "D:\\StudioProjects\\manager\\mysdk\\build\\intermediates\\res\\merged\\release\\drawable-xhdpi-v4\\loading_11.png",
+        "source": "D:\\StudioProjects\\manager\\mysdk\\src\\main\\res\\drawable-xhdpi\\loading_11.png"
+    },
+    {
+        "merged": "F:\\StudioProjects\\manager\\mysdk\\build\\intermediates\\res\\merged\\release\\drawable-xhdpi-v4\\qrcode_scan_line.png",
+        "source": "F:\\StudioProjects\\manager\\mysdk\\src\\main\\res\\drawable-xhdpi\\qrcode_scan_line.png"
+    },
+    {
+        "merged": "D:\\StudioProjects\\manager\\mysdk\\build\\intermediates\\res\\merged\\release\\drawable-xhdpi-v4\\loading_07.png",
+        "source": "D:\\StudioProjects\\manager\\mysdk\\src\\main\\res\\drawable-xhdpi\\loading_07.png"
+    },
+    {
+        "merged": "F:\\StudioProjects\\manager\\mysdk\\build\\intermediates\\res\\merged\\release\\drawable-xhdpi-v4\\v7.png",
+        "source": "F:\\StudioProjects\\manager\\mysdk\\src\\main\\res\\drawable-xhdpi\\v7.png"
+    },
+    {
+        "merged": "D:\\StudioProjects\\manager\\mysdk\\build\\intermediates\\res\\merged\\release\\drawable-xhdpi-v4\\abc_list_longpressed_holo.9.png",
+        "source": "D:\\StudioProjects\\manager\\mysdk\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\drawable-xhdpi-v4\\abc_list_longpressed_holo.9.png"
+    },
+    {
+        "merged": "F:\\StudioProjects\\manager\\mysdk\\build\\intermediates\\res\\merged\\release\\drawable-xhdpi-v4\\abc_btn_check_to_on_mtrl_015.png",
+        "source": "F:\\StudioProjects\\manager\\mysdk\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.1\\res\\drawable-xhdpi-v4\\abc_btn_check_to_on_mtrl_015.png"
+    },
+    {
+        "merged": "F:\\StudioProjects\\manager\\mysdk\\build\\intermediates\\res\\merged\\release\\drawable-xhdpi-v4\\v5.png",
+        "source": "F:\\StudioProjects\\manager\\mysdk\\src\\main\\res\\drawable-xhdpi\\v5.png"
+    },
+    {
+        "merged": "F:\\StudioProjects\\manager\\mysdk\\build\\intermediates\\res\\merged\\release\\drawable-xhdpi-v4\\v_anim2.png",
+        "source": "F:\\StudioProjects\\manager\\mysdk\\src\\main\\res\\drawable-xhdpi\\v_anim2.png"
+    },
+    {
+        "merged": "F:\\StudioProjects\\manager\\mysdk\\build\\intermediates\\res\\merged\\release\\drawable-xhdpi-v4\\abc_list_selector_disabled_holo_light.9.png",
+        "source": "F:\\StudioProjects\\manager\\mysdk\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.1\\res\\drawable-xhdpi-v4\\abc_list_selector_disabled_holo_light.9.png"
+    },
+    {
+        "merged": "D:\\StudioProjects\\manager\\mysdk\\build\\intermediates\\res\\merged\\release\\drawable-xhdpi-v4\\abc_ic_menu_cut_mtrl_alpha.png",
+        "source": "D:\\StudioProjects\\manager\\mysdk\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\drawable-xhdpi-v4\\abc_ic_menu_cut_mtrl_alpha.png"
+    },
+    {
+        "merged": "F:\\StudioProjects\\manager\\mysdk\\build\\intermediates\\res\\merged\\release\\drawable-xhdpi-v4\\abc_btn_check_to_on_mtrl_000.png",
+        "source": "F:\\StudioProjects\\manager\\mysdk\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.1\\res\\drawable-xhdpi-v4\\abc_btn_check_to_on_mtrl_000.png"
+    },
+    {
+        "merged": "D:\\StudioProjects\\manager\\mysdk\\build\\intermediates\\res\\merged\\release\\drawable-xhdpi-v4\\default_check.png",
+        "source": "D:\\StudioProjects\\manager\\mysdk\\src\\main\\res\\drawable-xhdpi\\default_check.png"
+    },
+    {
+        "merged": "F:\\StudioProjects\\manager\\mysdk\\build\\intermediates\\res\\merged\\release\\drawable-xhdpi-v4\\abc_btn_radio_to_on_mtrl_015.png",
+        "source": "F:\\StudioProjects\\manager\\mysdk\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.1\\res\\drawable-xhdpi-v4\\abc_btn_radio_to_on_mtrl_015.png"
+    },
+    {
+        "merged": "D:\\StudioProjects\\manager\\mysdk\\build\\intermediates\\res\\merged\\release\\drawable-xhdpi-v4\\abc_btn_rating_star_on_mtrl_alpha.png",
+        "source": "D:\\StudioProjects\\manager\\mysdk\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\drawable-xhdpi-v4\\abc_btn_rating_star_on_mtrl_alpha.png"
+    },
+    {
+        "merged": "F:\\StudioProjects\\manager\\mysdk\\build\\intermediates\\res\\merged\\release\\drawable-xhdpi-v4\\abc_ic_go_search_api_mtrl_alpha.png",
+        "source": "F:\\StudioProjects\\manager\\mysdk\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.1\\res\\drawable-xhdpi-v4\\abc_ic_go_search_api_mtrl_alpha.png"
+    },
+    {
+        "merged": "F:\\StudioProjects\\manager\\mysdk\\build\\intermediates\\res\\merged\\release\\drawable-xhdpi-v4\\abc_spinner_mtrl_am_alpha.9.png",
+        "source": "F:\\StudioProjects\\manager\\mysdk\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.1\\res\\drawable-xhdpi-v4\\abc_spinner_mtrl_am_alpha.9.png"
+    },
+    {
+        "merged": "D:\\StudioProjects\\manager\\mysdk\\build\\intermediates\\res\\merged\\release\\drawable-xhdpi-v4\\dialog_loading_bg.9.png",
+        "source": "D:\\StudioProjects\\manager\\mysdk\\src\\main\\res\\drawable-xhdpi\\dialog_loading_bg.9.png"
+    },
+    {
+        "merged": "F:\\StudioProjects\\manager\\mysdk\\build\\intermediates\\res\\merged\\release\\drawable-xhdpi-v4\\v2.png",
+        "source": "F:\\StudioProjects\\manager\\mysdk\\src\\main\\res\\drawable-xhdpi\\v2.png"
+    },
+    {
+        "merged": "D:\\StudioProjects\\manager\\mysdk\\build\\intermediates\\res\\merged\\release\\drawable-xhdpi-v4\\text_indicator.png",
+        "source": "D:\\StudioProjects\\manager\\mysdk\\src\\main\\res\\drawable-xhdpi\\text_indicator.png"
+    },
+    {
+        "merged": "F:\\StudioProjects\\manager\\mysdk\\build\\intermediates\\res\\merged\\release\\drawable-xhdpi-v4\\abc_ic_voice_search_api_mtrl_alpha.png",
+        "source": "F:\\StudioProjects\\manager\\mysdk\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.1\\res\\drawable-xhdpi-v4\\abc_ic_voice_search_api_mtrl_alpha.png"
+    },
+    {
+        "merged": "D:\\StudioProjects\\manager\\mysdk\\build\\intermediates\\res\\merged\\release\\drawable-xhdpi-v4\\index_icon_menu_chenggong.png",
+        "source": "D:\\StudioProjects\\manager\\mysdk\\src\\main\\res\\drawable-xhdpi\\index_icon_menu_chenggong.png"
+    },
+    {
+        "merged": "D:\\StudioProjects\\manager\\mysdk\\build\\intermediates\\res\\merged\\release\\drawable-xhdpi-v4\\abc_ic_search_api_mtrl_alpha.png",
+        "source": "D:\\StudioProjects\\manager\\mysdk\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\drawable-xhdpi-v4\\abc_ic_search_api_mtrl_alpha.png"
+    },
+    {
+        "merged": "D:\\StudioProjects\\manager\\mysdk\\build\\intermediates\\res\\merged\\release\\drawable-xhdpi-v4\\abc_textfield_default_mtrl_alpha.9.png",
+        "source": "D:\\StudioProjects\\manager\\mysdk\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\drawable-xhdpi-v4\\abc_textfield_default_mtrl_alpha.9.png"
+    },
+    {
+        "merged": "D:\\StudioProjects\\manager\\mysdk\\build\\intermediates\\res\\merged\\release\\drawable-xhdpi-v4\\abc_popup_background_mtrl_mult.9.png",
+        "source": "D:\\StudioProjects\\manager\\mysdk\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\drawable-xhdpi-v4\\abc_popup_background_mtrl_mult.9.png"
+    },
+    {
+        "merged": "D:\\StudioProjects\\manager\\mysdk\\build\\intermediates\\res\\merged\\release\\drawable-xhdpi-v4\\btn_unselected.png",
+        "source": "D:\\StudioProjects\\manager\\mysdk\\src\\main\\res\\drawable-xhdpi\\btn_unselected.png"
+    },
+    {
+        "merged": "F:\\StudioProjects\\manager\\mysdk\\build\\intermediates\\res\\merged\\release\\drawable-xhdpi-v4\\text_indicator.png",
+        "source": "F:\\StudioProjects\\manager\\mysdk\\src\\main\\res\\drawable-xhdpi\\text_indicator.png"
+    },
+    {
+        "merged": "D:\\StudioProjects\\manager\\mysdk\\build\\intermediates\\res\\merged\\release\\drawable-xhdpi-v4\\index_icon_close.png",
+        "source": "D:\\StudioProjects\\manager\\mysdk\\src\\main\\res\\drawable-xhdpi\\index_icon_close.png"
+    },
+    {
+        "merged": "D:\\StudioProjects\\manager\\mysdk\\build\\intermediates\\res\\merged\\release\\drawable-xhdpi-v4\\abc_ic_star_black_36dp.png",
+        "source": "D:\\StudioProjects\\manager\\mysdk\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\drawable-xhdpi-v4\\abc_ic_star_black_36dp.png"
+    },
+    {
+        "merged": "F:\\StudioProjects\\manager\\mysdk\\build\\intermediates\\res\\merged\\release\\drawable-xhdpi-v4\\abc_btn_radio_to_on_mtrl_000.png",
+        "source": "F:\\StudioProjects\\manager\\mysdk\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.1\\res\\drawable-xhdpi-v4\\abc_btn_radio_to_on_mtrl_000.png"
+    },
+    {
+        "merged": "F:\\StudioProjects\\manager\\mysdk\\build\\intermediates\\res\\merged\\release\\drawable-xhdpi-v4\\abc_ic_star_half_black_36dp.png",
+        "source": "F:\\StudioProjects\\manager\\mysdk\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.1\\res\\drawable-xhdpi-v4\\abc_ic_star_half_black_36dp.png"
+    },
+    {
+        "merged": "D:\\StudioProjects\\manager\\mysdk\\build\\intermediates\\res\\merged\\release\\drawable-xhdpi-v4\\loading_01.png",
+        "source": "D:\\StudioProjects\\manager\\mysdk\\src\\main\\res\\drawable-xhdpi\\loading_01.png"
+    },
+    {
+        "merged": "D:\\StudioProjects\\manager\\mysdk\\build\\intermediates\\res\\merged\\release\\drawable-xhdpi-v4\\default_ptr_rotate.png",
+        "source": "D:\\StudioProjects\\manager\\mysdk\\src\\main\\res\\drawable-xhdpi\\default_ptr_rotate.png"
+    },
+    {
+        "merged": "F:\\StudioProjects\\manager\\mysdk\\build\\intermediates\\res\\merged\\release\\drawable-xhdpi-v4\\index_icon_menu_tianjia.png",
+        "source": "F:\\StudioProjects\\manager\\mysdk\\src\\main\\res\\drawable-xhdpi\\index_icon_menu_tianjia.png"
+    },
+    {
+        "merged": "D:\\StudioProjects\\manager\\mysdk\\build\\intermediates\\res\\merged\\release\\drawable-xhdpi-v4\\abc_textfield_search_activated_mtrl_alpha.9.png",
+        "source": "D:\\StudioProjects\\manager\\mysdk\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\drawable-xhdpi-v4\\abc_textfield_search_activated_mtrl_alpha.9.png"
+    },
+    {
+        "merged": "F:\\StudioProjects\\manager\\mysdk\\build\\intermediates\\res\\merged\\release\\drawable-xhdpi-v4\\back_s.png",
+        "source": "F:\\StudioProjects\\manager\\mysdk\\src\\main\\res\\drawable-xhdpi\\back_s.png"
+    },
+    {
+        "merged": "F:\\StudioProjects\\manager\\mysdk\\build\\intermediates\\res\\merged\\release\\drawable-xhdpi-v4\\v_anim3.png",
+        "source": "F:\\StudioProjects\\manager\\mysdk\\src\\main\\res\\drawable-xhdpi\\v_anim3.png"
+    },
+    {
+        "merged": "D:\\StudioProjects\\manager\\mysdk\\build\\intermediates\\res\\merged\\release\\drawable-xhdpi-v4\\abc_list_pressed_holo_dark.9.png",
+        "source": "D:\\StudioProjects\\manager\\mysdk\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\drawable-xhdpi-v4\\abc_list_pressed_holo_dark.9.png"
+    },
+    {
+        "merged": "F:\\StudioProjects\\manager\\mysdk\\build\\intermediates\\res\\merged\\release\\drawable-xhdpi-v4\\abc_ic_menu_moreoverflow_mtrl_alpha.png",
+        "source": "F:\\StudioProjects\\manager\\mysdk\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.1\\res\\drawable-xhdpi-v4\\abc_ic_menu_moreoverflow_mtrl_alpha.png"
+    },
+    {
+        "merged": "D:\\StudioProjects\\manager\\mysdk\\build\\intermediates\\res\\merged\\release\\drawable-xhdpi-v4\\back.png",
+        "source": "D:\\StudioProjects\\manager\\mysdk\\src\\main\\res\\drawable-xhdpi\\back.png"
+    },
+    {
+        "merged": "D:\\StudioProjects\\manager\\mysdk\\build\\intermediates\\res\\merged\\release\\drawable-xhdpi-v4\\voice_to_short.png",
+        "source": "D:\\StudioProjects\\manager\\mysdk\\src\\main\\res\\drawable-xhdpi\\voice_to_short.png"
+    },
+    {
+        "merged": "D:\\StudioProjects\\manager\\mysdk\\build\\intermediates\\res\\merged\\release\\drawable-xhdpi-v4\\abc_switch_track_mtrl_alpha.9.png",
+        "source": "D:\\StudioProjects\\manager\\mysdk\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\drawable-xhdpi-v4\\abc_switch_track_mtrl_alpha.9.png"
+    },
+    {
+        "merged": "D:\\StudioProjects\\manager\\mysdk\\build\\intermediates\\res\\merged\\release\\drawable-xhdpi-v4\\abc_list_selector_disabled_holo_light.9.png",
+        "source": "D:\\StudioProjects\\manager\\mysdk\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\drawable-xhdpi-v4\\abc_list_selector_disabled_holo_light.9.png"
+    },
+    {
+        "merged": "F:\\StudioProjects\\manager\\mysdk\\build\\intermediates\\res\\merged\\release\\drawable-xhdpi-v4\\title_bar_bg_one_row.9.png",
+        "source": "F:\\StudioProjects\\manager\\mysdk\\src\\main\\res\\drawable-xhdpi\\title_bar_bg_one_row.9.png"
+    },
+    {
+        "merged": "D:\\StudioProjects\\manager\\mysdk\\build\\intermediates\\res\\merged\\release\\drawable-xhdpi-v4\\v_anim2.png",
+        "source": "D:\\StudioProjects\\manager\\mysdk\\src\\main\\res\\drawable-xhdpi\\v_anim2.png"
+    },
+    {
+        "merged": "D:\\StudioProjects\\manager\\mysdk\\build\\intermediates\\res\\merged\\release\\drawable-xhdpi-v4\\v6.png",
+        "source": "D:\\StudioProjects\\manager\\mysdk\\src\\main\\res\\drawable-xhdpi\\v6.png"
+    },
+    {
+        "merged": "F:\\StudioProjects\\manager\\mysdk\\build\\intermediates\\res\\merged\\release\\drawable-xhdpi-v4\\loading_09.png",
+        "source": "F:\\StudioProjects\\manager\\mysdk\\src\\main\\res\\drawable-xhdpi\\loading_09.png"
+    },
+    {
+        "merged": "F:\\StudioProjects\\manager\\mysdk\\build\\intermediates\\res\\merged\\release\\drawable-xhdpi-v4\\tree_ec.png",
+        "source": "F:\\StudioProjects\\manager\\mysdk\\src\\main\\res\\drawable-xhdpi\\tree_ec.png"
+    },
+    {
+        "merged": "D:\\StudioProjects\\manager\\mysdk\\build\\intermediates\\res\\merged\\release\\drawable-xhdpi-v4\\loading_05.png",
+        "source": "D:\\StudioProjects\\manager\\mysdk\\src\\main\\res\\drawable-xhdpi\\loading_05.png"
+    },
+    {
+        "merged": "F:\\StudioProjects\\manager\\mysdk\\build\\intermediates\\res\\merged\\release\\drawable-xhdpi-v4\\abc_ic_menu_copy_mtrl_am_alpha.png",
+        "source": "F:\\StudioProjects\\manager\\mysdk\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.1\\res\\drawable-xhdpi-v4\\abc_ic_menu_copy_mtrl_am_alpha.png"
+    },
+    {
+        "merged": "F:\\StudioProjects\\manager\\mysdk\\build\\intermediates\\res\\merged\\release\\drawable-xhdpi-v4\\btn_selected.png",
+        "source": "F:\\StudioProjects\\manager\\mysdk\\src\\main\\res\\drawable-xhdpi\\btn_selected.png"
+    },
+    {
+        "merged": "F:\\StudioProjects\\manager\\mysdk\\build\\intermediates\\res\\merged\\release\\drawable-xhdpi-v4\\dialog_loading_bg.9.png",
+        "source": "F:\\StudioProjects\\manager\\mysdk\\src\\main\\res\\drawable-xhdpi\\dialog_loading_bg.9.png"
+    },
+    {
+        "merged": "F:\\StudioProjects\\manager\\mysdk\\build\\intermediates\\res\\merged\\release\\drawable-xhdpi-v4\\abc_ic_ab_back_mtrl_am_alpha.png",
+        "source": "F:\\StudioProjects\\manager\\mysdk\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.1\\res\\drawable-xhdpi-v4\\abc_ic_ab_back_mtrl_am_alpha.png"
+    },
+    {
+        "merged": "D:\\StudioProjects\\manager\\mysdk\\build\\intermediates\\res\\merged\\release\\drawable-xhdpi-v4\\abc_list_divider_mtrl_alpha.9.png",
+        "source": "D:\\StudioProjects\\manager\\mysdk\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\drawable-xhdpi-v4\\abc_list_divider_mtrl_alpha.9.png"
+    },
+    {
+        "merged": "D:\\StudioProjects\\manager\\mysdk\\build\\intermediates\\res\\merged\\release\\drawable-xhdpi-v4\\default_check_s.png",
+        "source": "D:\\StudioProjects\\manager\\mysdk\\src\\main\\res\\drawable-xhdpi\\default_check_s.png"
+    },
+    {
+        "merged": "D:\\StudioProjects\\manager\\mysdk\\build\\intermediates\\res\\merged\\release\\drawable-xhdpi-v4\\abc_ic_menu_paste_mtrl_am_alpha.png",
+        "source": "D:\\StudioProjects\\manager\\mysdk\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\drawable-xhdpi-v4\\abc_ic_menu_paste_mtrl_am_alpha.png"
+    },
+    {
+        "merged": "D:\\StudioProjects\\manager\\mysdk\\build\\intermediates\\res\\merged\\release\\drawable-xhdpi-v4\\default_error.png",
+        "source": "D:\\StudioProjects\\manager\\mysdk\\src\\main\\res\\drawable-xhdpi\\default_error.png"
+    },
+    {
+        "merged": "F:\\StudioProjects\\manager\\mysdk\\build\\intermediates\\res\\merged\\release\\drawable-xhdpi-v4\\back.png",
+        "source": "F:\\StudioProjects\\manager\\mysdk\\src\\main\\res\\drawable-xhdpi\\back.png"
+    },
+    {
+        "merged": "F:\\StudioProjects\\manager\\mysdk\\build\\intermediates\\res\\merged\\release\\drawable-xhdpi-v4\\abc_btn_switch_to_on_mtrl_00012.9.png",
+        "source": "F:\\StudioProjects\\manager\\mysdk\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.1\\res\\drawable-xhdpi-v4\\abc_btn_switch_to_on_mtrl_00012.9.png"
+    },
+    {
+        "merged": "D:\\StudioProjects\\manager\\mysdk\\build\\intermediates\\res\\merged\\release\\drawable-xhdpi-v4\\v5.png",
+        "source": "D:\\StudioProjects\\manager\\mysdk\\src\\main\\res\\drawable-xhdpi\\v5.png"
+    },
+    {
+        "merged": "D:\\StudioProjects\\manager\\mysdk\\build\\intermediates\\res\\merged\\release\\drawable-xhdpi-v4\\no_pic.png",
+        "source": "D:\\StudioProjects\\manager\\mysdk\\src\\main\\res\\drawable-xhdpi\\no_pic.png"
+    },
+    {
+        "merged": "F:\\StudioProjects\\manager\\mysdk\\build\\intermediates\\res\\merged\\release\\drawable-xhdpi-v4\\abc_list_pressed_holo_light.9.png",
+        "source": "F:\\StudioProjects\\manager\\mysdk\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.1\\res\\drawable-xhdpi-v4\\abc_list_pressed_holo_light.9.png"
+    },
+    {
+        "merged": "F:\\StudioProjects\\manager\\mysdk\\build\\intermediates\\res\\merged\\release\\drawable-xhdpi-v4\\loading_07.png",
+        "source": "F:\\StudioProjects\\manager\\mysdk\\src\\main\\res\\drawable-xhdpi\\loading_07.png"
+    },
+    {
+        "merged": "F:\\StudioProjects\\manager\\mysdk\\build\\intermediates\\res\\merged\\release\\drawable-xhdpi-v4\\abc_textfield_search_activated_mtrl_alpha.9.png",
+        "source": "F:\\StudioProjects\\manager\\mysdk\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.1\\res\\drawable-xhdpi-v4\\abc_textfield_search_activated_mtrl_alpha.9.png"
+    },
+    {
+        "merged": "F:\\StudioProjects\\manager\\mysdk\\build\\intermediates\\res\\merged\\release\\drawable-xhdpi-v4\\abc_list_focused_holo.9.png",
+        "source": "F:\\StudioProjects\\manager\\mysdk\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.1\\res\\drawable-xhdpi-v4\\abc_list_focused_holo.9.png"
+    },
+    {
+        "merged": "D:\\StudioProjects\\manager\\mysdk\\build\\intermediates\\res\\merged\\release\\drawable-xhdpi-v4\\abc_ic_menu_moreoverflow_mtrl_alpha.png",
+        "source": "D:\\StudioProjects\\manager\\mysdk\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\drawable-xhdpi-v4\\abc_ic_menu_moreoverflow_mtrl_alpha.png"
+    },
+    {
+        "merged": "F:\\StudioProjects\\manager\\mysdk\\build\\intermediates\\res\\merged\\release\\drawable-xhdpi-v4\\loading_05.png",
+        "source": "F:\\StudioProjects\\manager\\mysdk\\src\\main\\res\\drawable-xhdpi\\loading_05.png"
+    },
+    {
+        "merged": "D:\\StudioProjects\\manager\\mysdk\\build\\intermediates\\res\\merged\\release\\drawable-xhdpi-v4\\abc_ic_star_half_black_16dp.png",
+        "source": "D:\\StudioProjects\\manager\\mysdk\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\drawable-xhdpi-v4\\abc_ic_star_half_black_16dp.png"
+    },
+    {
+        "merged": "D:\\StudioProjects\\manager\\mysdk\\build\\intermediates\\res\\merged\\release\\drawable-xhdpi-v4\\v_anim1.png",
+        "source": "D:\\StudioProjects\\manager\\mysdk\\src\\main\\res\\drawable-xhdpi\\v_anim1.png"
+    },
+    {
+        "merged": "F:\\StudioProjects\\manager\\mysdk\\build\\intermediates\\res\\merged\\release\\drawable-xhdpi-v4\\loading_03.png",
+        "source": "F:\\StudioProjects\\manager\\mysdk\\src\\main\\res\\drawable-xhdpi\\loading_03.png"
+    },
+    {
+        "merged": "D:\\StudioProjects\\manager\\mysdk\\build\\intermediates\\res\\merged\\release\\drawable-xhdpi-v4\\abc_btn_check_to_on_mtrl_000.png",
+        "source": "D:\\StudioProjects\\manager\\mysdk\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\drawable-xhdpi-v4\\abc_btn_check_to_on_mtrl_000.png"
+    },
+    {
+        "merged": "F:\\StudioProjects\\manager\\mysdk\\build\\intermediates\\res\\merged\\release\\drawable-xhdpi-v4\\loading_08.png",
+        "source": "F:\\StudioProjects\\manager\\mysdk\\src\\main\\res\\drawable-xhdpi\\loading_08.png"
+    },
+    {
+        "merged": "F:\\StudioProjects\\manager\\mysdk\\build\\intermediates\\res\\merged\\release\\drawable-xhdpi-v4\\abc_list_pressed_holo_dark.9.png",
+        "source": "F:\\StudioProjects\\manager\\mysdk\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.1\\res\\drawable-xhdpi-v4\\abc_list_pressed_holo_dark.9.png"
+    },
+    {
+        "merged": "D:\\StudioProjects\\manager\\mysdk\\build\\intermediates\\res\\merged\\release\\drawable-xhdpi-v4\\asv.png",
+        "source": "D:\\StudioProjects\\manager\\mysdk\\src\\main\\res\\drawable-xhdpi\\asv.png"
+    },
+    {
+        "merged": "D:\\StudioProjects\\manager\\mysdk\\build\\intermediates\\res\\merged\\release\\drawable-xhdpi-v4\\abc_list_pressed_holo_light.9.png",
+        "source": "D:\\StudioProjects\\manager\\mysdk\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\drawable-xhdpi-v4\\abc_list_pressed_holo_light.9.png"
+    },
+    {
+        "merged": "F:\\StudioProjects\\manager\\mysdk\\build\\intermediates\\res\\merged\\release\\drawable-xhdpi-v4\\abc_scrubber_control_to_pressed_mtrl_005.png",
+        "source": "F:\\StudioProjects\\manager\\mysdk\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.1\\res\\drawable-xhdpi-v4\\abc_scrubber_control_to_pressed_mtrl_005.png"
+    },
+    {
+        "merged": "D:\\StudioProjects\\manager\\mysdk\\build\\intermediates\\res\\merged\\release\\drawable-xhdpi-v4\\ic_launcher.png",
+        "source": "D:\\StudioProjects\\manager\\mysdk\\src\\main\\res\\drawable-xhdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "D:\\StudioProjects\\manager\\mysdk\\build\\intermediates\\res\\merged\\release\\drawable-xhdpi-v4\\load_circle.png",
+        "source": "D:\\StudioProjects\\manager\\mysdk\\src\\main\\res\\drawable-xhdpi\\load_circle.png"
+    },
+    {
+        "merged": "D:\\StudioProjects\\manager\\mysdk\\build\\intermediates\\res\\merged\\release\\drawable-xhdpi-v4\\abc_btn_check_to_on_mtrl_015.png",
+        "source": "D:\\StudioProjects\\manager\\mysdk\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\drawable-xhdpi-v4\\abc_btn_check_to_on_mtrl_015.png"
+    },
+    {
+        "merged": "D:\\StudioProjects\\manager\\mysdk\\build\\intermediates\\res\\merged\\release\\drawable-xhdpi-v4\\abc_scrubber_primary_mtrl_alpha.9.png",
+        "source": "D:\\StudioProjects\\manager\\mysdk\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\drawable-xhdpi-v4\\abc_scrubber_primary_mtrl_alpha.9.png"
+    },
+    {
+        "merged": "D:\\StudioProjects\\manager\\mysdk\\build\\intermediates\\res\\merged\\release\\drawable-xhdpi-v4\\abc_list_selector_disabled_holo_dark.9.png",
+        "source": "D:\\StudioProjects\\manager\\mysdk\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\drawable-xhdpi-v4\\abc_list_selector_disabled_holo_dark.9.png"
+    },
+    {
+        "merged": "D:\\StudioProjects\\manager\\mysdk\\build\\intermediates\\res\\merged\\release\\drawable-xhdpi-v4\\index_icon_add.png",
+        "source": "D:\\StudioProjects\\manager\\mysdk\\src\\main\\res\\drawable-xhdpi\\index_icon_add.png"
+    },
+    {
+        "merged": "D:\\StudioProjects\\manager\\mysdk\\build\\intermediates\\res\\merged\\release\\drawable-xhdpi-v4\\v7.png",
+        "source": "D:\\StudioProjects\\manager\\mysdk\\src\\main\\res\\drawable-xhdpi\\v7.png"
+    },
+    {
+        "merged": "D:\\StudioProjects\\manager\\mysdk\\build\\intermediates\\res\\merged\\release\\drawable-xhdpi-v4\\abc_scrubber_control_to_pressed_mtrl_005.png",
+        "source": "D:\\StudioProjects\\manager\\mysdk\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\drawable-xhdpi-v4\\abc_scrubber_control_to_pressed_mtrl_005.png"
+    },
+    {
+        "merged": "F:\\StudioProjects\\manager\\mysdk\\build\\intermediates\\res\\merged\\release\\drawable-xhdpi-v4\\abc_scrubber_control_to_pressed_mtrl_000.png",
+        "source": "F:\\StudioProjects\\manager\\mysdk\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.1\\res\\drawable-xhdpi-v4\\abc_scrubber_control_to_pressed_mtrl_000.png"
+    },
+    {
+        "merged": "F:\\StudioProjects\\manager\\mysdk\\build\\intermediates\\res\\merged\\release\\drawable-xhdpi-v4\\v3.png",
+        "source": "F:\\StudioProjects\\manager\\mysdk\\src\\main\\res\\drawable-xhdpi\\v3.png"
+    },
+    {
+        "merged": "D:\\StudioProjects\\manager\\mysdk\\build\\intermediates\\res\\merged\\release\\drawable-xhdpi-v4\\v1.png",
+        "source": "D:\\StudioProjects\\manager\\mysdk\\src\\main\\res\\drawable-xhdpi\\v1.png"
+    },
+    {
+        "merged": "F:\\StudioProjects\\manager\\mysdk\\build\\intermediates\\res\\merged\\release\\drawable-xhdpi-v4\\abc_scrubber_control_off_mtrl_alpha.png",
+        "source": "F:\\StudioProjects\\manager\\mysdk\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.1\\res\\drawable-xhdpi-v4\\abc_scrubber_control_off_mtrl_alpha.png"
+    }
+]

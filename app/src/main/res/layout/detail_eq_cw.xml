@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical" >
+
+    <com.lcx.mysdk.view.MtScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scrollbars="none" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:focusable="true"
+            android:focusableInTouchMode="true"
+            android:orientation="vertical" >
+
+            <TableLayout style="@style/Table" >
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" >
+
+                    <TextView
+                        style="@style/DetailTextStyleLeft"
+                        android:text="建档日期" />
+
+                    <TextView
+                        android:id="@+id/PurchaseDate"
+                        style="@style/DetailTextStyleRight" />
+                </TableRow>
+
+                <View style="@style/DetailViewStyle" />
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" >
+
+                    <TextView
+                        style="@style/DetailTextStyleLeft"
+                        android:text="固资编码" />
+
+                    <TextView
+                        android:id="@+id/CapitalAssetsNo"
+                        style="@style/DetailTextStyleRight" />
+                </TableRow>
+
+                <View style="@style/DetailViewStyle" />
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" >
+
+                    <TextView
+                        style="@style/DetailTextStyleLeft"
+                        android:text="固资科目" />
+
+                    <TextView
+                        android:id="@+id/CapitalAssetsSubject"
+                        style="@style/DetailTextStyleRight" />
+                </TableRow>
+
+                <View style="@style/DetailViewStyle" />
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" >
+
+                    <TextView
+                        style="@style/DetailTextStyleLeft"
+                        android:text="会计原值" />
+
+                    <TextView
+                        android:id="@+id/CostAccounting"
+                        style="@style/DetailTextStyleRight" />
+                </TableRow>
+
+                <View style="@style/DetailViewStyle" />
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" >
+
+                    <TextView
+                        style="@style/DetailTextStyleLeft"
+                        android:text="会计现值" />
+
+                    <TextView
+                        android:id="@+id/CostPresentValue"
+                        style="@style/DetailTextStyleRight" />
+                </TableRow>
+
+                <View style="@style/DetailViewStyle" />
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" >
+
+                    <TextView
+                        style="@style/DetailTextStyleLeft"
+                        android:text="折旧年限" />
+
+                    <TextView
+                        android:id="@+id/DepreciationYears"
+                        style="@style/DetailTextStyleRight" />
+                </TableRow>
+
+                <View style="@style/DetailViewStyle" />
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" >
+
+                    <TextView
+                        style="@style/DetailTextStyleLeft"
+                        android:text="已用年限" />
+
+                    <TextView
+                        android:id="@+id/UsedYears"
+                        style="@style/DetailTextStyleRight" />
+                </TableRow>
+
+                <View style="@style/DetailViewStyle" />
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" >
+
+                    <TextView
+                        style="@style/DetailTextStyleLeft"
+                        android:text="是否已用" />
+
+                    <TextView
+                        android:id="@+id/IsUsed"
+                        style="@style/DetailTextStyleRight" />
+                </TableRow>
+
+                <View style="@style/DetailViewStyle" />
+            </TableLayout>
+        </LinearLayout>
+    </com.lcx.mysdk.view.MtScrollView>
+
+</LinearLayout>

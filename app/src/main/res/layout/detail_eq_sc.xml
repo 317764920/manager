@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical" >
+
+    <com.lcx.mysdk.view.MtScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scrollbars="none" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:focusable="true"
+            android:focusableInTouchMode="true"
+            android:orientation="vertical" >
+
+            <TableLayout style="@style/Table" >
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" >
+
+                    <TextView
+                        style="@style/DetailTextStyleLeft"
+                        android:text="购入人" />
+
+                    <TextView
+                        android:id="@+id/PurchaseUserID"
+                        style="@style/DetailTextStyleRight" />
+                </TableRow>
+
+                <View style="@style/DetailViewStyle" />
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" >
+
+                    <TextView
+                        style="@style/DetailTextStyleLeft"
+                        android:text="供应商" />
+
+                    <TextView
+                        android:id="@+id/Supplier"
+                        style="@style/DetailTextStyleRight" />
+                </TableRow>
+
+                <View style="@style/DetailViewStyle" />
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" >
+
+                    <TextView
+                        style="@style/DetailTextStyleLeft"
+                        android:text="联系人" />
+
+                    <TextView
+                        android:id="@+id/SupplierUser"
+                        style="@style/DetailTextStyleRight" />
+                </TableRow>
+
+                <View style="@style/DetailViewStyle" />
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" >
+
+                    <TextView
+                        style="@style/DetailTextStyleLeft"
+                        android:text="联系方式" />
+
+                    <TextView
+                        android:id="@+id/SupplierTel"
+                        style="@style/DetailTextStyleRight" />
+                </TableRow>
+
+                <View style="@style/DetailViewStyle" />
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" >
+
+                    <TextView
+                        style="@style/DetailTextStyleLeft"
+                        android:text="联系地址" />
+
+                    <TextView
+                        android:id="@+id/SupplierAddress"
+                        style="@style/DetailTextStyleRight" />
+                </TableRow>
+
+                <View style="@style/DetailViewStyle" />
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" >
+
+                    <TextView
+                        style="@style/DetailTextStyleLeft"
+                        android:text="生产日期" />
+
+                    <TextView
+                        android:id="@+id/ProductionDate"
+                        style="@style/DetailTextStyleRight" />
+                </TableRow>
+
+                <View style="@style/DetailViewStyle" />
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" >
+
+                    <TextView
+                        style="@style/DetailTextStyleLeft"
+                        android:text="保修期" />
+
+                    <TextView
+                        android:id="@+id/CPIDText"
+                        style="@style/DetailTextStyleRight" />
+                </TableRow>
+
+                <View style="@style/DetailViewStyle" />
+            </TableLayout>
+        </LinearLayout>
+    </com.lcx.mysdk.view.MtScrollView>
+
+</LinearLayout>

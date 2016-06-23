@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:orientation="vertical">
+
+    <!-- 网格显示图片 行列间距5dp 每列宽度80dp -->
+    <GridView
+        android:id="@+id/fujians"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:columnWidth="65dp"
+        android:listSelector="@color/transparent"
+        android:numColumns="auto_fit"
+        android:stretchMode="columnWidth" />
+
+    <TextView
+        android:id="@+id/progress"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="正在上传..."
+        android:textColor="@color/btn_blue"
+        android:visibility="gone" />
+
+</LinearLayout>

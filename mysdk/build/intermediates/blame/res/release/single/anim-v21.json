@@ -1,0 +1,18 @@
+[
+    {
+        "merged": "F:\\StudioProjects\\manager\\mysdk\\build\\intermediates\\res\\merged\\release\\anim-v21\\design_bottom_sheet_slide_out.xml",
+        "source": "F:\\StudioProjects\\manager\\mysdk\\build\\intermediates\\exploded-aar\\com.android.support\\design\\23.2.1\\res\\anim-v21\\design_bottom_sheet_slide_out.xml"
+    },
+    {
+        "merged": "F:\\StudioProjects\\manager\\mysdk\\build\\intermediates\\res\\merged\\release\\anim-v21\\design_bottom_sheet_slide_in.xml",
+        "source": "F:\\StudioProjects\\manager\\mysdk\\build\\intermediates\\exploded-aar\\com.android.support\\design\\23.2.1\\res\\anim-v21\\design_bottom_sheet_slide_in.xml"
+    },
+    {
+        "merged": "D:\\StudioProjects\\manager\\mysdk\\build\\intermediates\\res\\merged\\release\\anim-v21\\design_bottom_sheet_slide_out.xml",
+        "source": "D:\\StudioProjects\\manager\\mysdk\\build\\intermediates\\exploded-aar\\com.android.support\\design\\23.4.0\\res\\anim-v21\\design_bottom_sheet_slide_out.xml"
+    },
+    {
+        "merged": "D:\\StudioProjects\\manager\\mysdk\\build\\intermediates\\res\\merged\\release\\anim-v21\\design_bottom_sheet_slide_in.xml",
+        "source": "D:\\StudioProjects\\manager\\mysdk\\build\\intermediates\\exploded-aar\\com.android.support\\design\\23.4.0\\res\\anim-v21\\design_bottom_sheet_slide_in.xml"
+    }
+]

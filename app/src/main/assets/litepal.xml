@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<litepal>
+    <dbname value="manager_db"></dbname>
+
+    <version value="1"></version>
+
+    <list>
+        <mapping class="com.lltech.manager.entity.IpItem"></mapping>
+        <mapping class="com.lltech.manager.entity.user.User"></mapping>
+    </list>
+</litepal>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+
+    <string-array name="tdData">
+        <item>个人原因</item>
+        <item>时间不够长</item>
+        <item>我不想做，今天很累</item>
+        <item>客户不在现场</item>
+        <item>其他原因</item>
+    </string-array>
+
+</resources>

@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical" >
+
+    <com.lcx.mysdk.view.MtScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scrollbars="none" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:focusable="true"
+            android:focusableInTouchMode="true"
+            android:orientation="vertical" >
+
+            <TableLayout style="@style/Table" >
+
+                <View style="@style/DetailViewStyle" />
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" >
+
+                    <TextView
+                        style="@style/DetailTextStyleLeft"
+                        android:text="是否日常保养" />
+
+                    <TextView
+                        android:id="@+id/IsMaintenance"
+                        style="@style/DetailTextStyleRight" />
+                </TableRow>
+
+                <View style="@style/DetailViewStyle" />
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" >
+
+                    <TextView
+                        style="@style/DetailTextStyleLeft"
+                        android:text="保养标准" />
+
+                    <TextView
+                        android:id="@+id/MaintenanceStandardsID"
+                        style="@style/DetailTextStyleRight" />
+                </TableRow>
+
+                <View style="@style/DetailViewStyle" />
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" >
+
+                    <TextView
+                        style="@style/DetailTextStyleLeft"
+                        android:text="维护周期" />
+
+                    <TextView
+                        android:id="@+id/MaintenanceCycle"
+                        style="@style/DetailTextStyleRight" />
+                </TableRow>
+
+                <View style="@style/DetailViewStyle" />
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" >
+
+                    <TextView
+                        style="@style/DetailTextStyleLeft"
+                        android:text="提醒人员" />
+
+                    <TextView
+                        android:id="@+id/RemindUsers"
+                        style="@style/DetailTextStyleRight" />
+                </TableRow>
+
+                <View style="@style/DetailViewStyle" />
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" >
+
+                    <TextView
+                        style="@style/DetailTextStyleLeft"
+                        android:text="首次保养日期" />
+
+                    <TextView
+                        android:id="@+id/MaintenanceBeginTime"
+                        style="@style/DetailTextStyleRight" />
+                </TableRow>
+
+                <View style="@style/DetailViewStyle" />
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" >
+
+                    <TextView
+                        style="@style/DetailTextStyleLeft"
+                        android:text="最近保养日期" />
+
+                    <TextView
+                        android:id="@+id/MaintenanceLastTime"
+                        style="@style/DetailTextStyleRight" />
+                </TableRow>
+
+                <View style="@style/DetailViewStyle" />
+            </TableLayout>
+        </LinearLayout>
+    </com.lcx.mysdk.view.MtScrollView>
+
+</LinearLayout>

@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <com.lltech.manager.widget.TopBar
+        android:id="@+id/top"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <com.lcx.mysdk.view.MtScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:focusable="true"
+            android:focusableInTouchMode="true"
+            android:orientation="vertical">
+
+            <TableLayout style="@style/Table">
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <TextView
+                        style="@style/DetailTextStyleLeft"
+                        android:text="接收人" />
+
+                    <TextView
+                        android:id="@+id/RecipientText"
+                        style="@style/DetailTextStyleRight"
+                        android:gravity="left"
+                        android:padding="5dp" />
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:layout_marginRight="10dp"
+                        android:gravity="center_vertical"
+                        android:orientation="vertical">
+
+                        <Button
+                            android:id="@+id/choose"
+                            android:layout_width="25dp"
+                            android:layout_height="25dp"
+                            android:background="@drawable/selecter_add" />
+                    </LinearLayout>
+                </TableRow>
+
+                <View style="@style/DetailViewStyle" />
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <TextView
+                        style="@style/DetailTextStyleLeft"
+                        android:text="标题" />
+
+                    <EditText
+                        android:id="@+id/MessageTitle"
+                        style="@style/DetailTextStyleRight"
+                        android:gravity="left"
+                        android:padding="5dp" />
+                </TableRow>
+
+                <View style="@style/DetailViewStyle" />
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <TextView
+                        style="@style/DetailTextStyleLeft"
+                        android:text="内容" />
+
+                    <EditText
+                        android:id="@+id/MessageContent"
+                        style="@style/DetailTextStyleRight"
+                        android:gravity="left"
+                        android:minHeight="100dp"
+                        android:padding="5dp" />
+                </TableRow>
+            </TableLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:padding="10dp">
+
+                <Button
+                    android:id="@+id/save"
+                    style="@style/DetailSave"
+                    android:text="发送" />
+            </LinearLayout>
+        </LinearLayout>
+    </com.lcx.mysdk.view.MtScrollView>
+</LinearLayout>

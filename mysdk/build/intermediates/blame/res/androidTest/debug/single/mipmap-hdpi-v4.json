@@ -1,0 +1,18 @@
+[
+    {
+        "merged": "D:\\StudioProjects\\manager\\mysdk\\build\\intermediates\\res\\merged\\androidTest\\debug\\mipmap-hdpi-v4\\banner_dot_normal.png",
+        "source": "D:\\StudioProjects\\manager\\mysdk\\build\\intermediates\\exploded-aar\\com.jorge.circleview\\circlelibrary\\1.0.0\\res\\mipmap-hdpi-v4\\banner_dot_normal.png"
+    },
+    {
+        "merged": "F:\\StudioProjects\\manager\\mysdk\\build\\intermediates\\res\\merged\\androidTest\\debug\\mipmap-hdpi-v4\\banner_dot_normal.png",
+        "source": "F:\\StudioProjects\\manager\\mysdk\\build\\intermediates\\exploded-aar\\com.jorge.circleview\\circlelibrary\\1.0.0\\res\\mipmap-hdpi-v4\\banner_dot_normal.png"
+    },
+    {
+        "merged": "F:\\StudioProjects\\manager\\mysdk\\build\\intermediates\\res\\merged\\androidTest\\debug\\mipmap-hdpi-v4\\banner_dot_focus.png",
+        "source": "F:\\StudioProjects\\manager\\mysdk\\build\\intermediates\\exploded-aar\\com.jorge.circleview\\circlelibrary\\1.0.0\\res\\mipmap-hdpi-v4\\banner_dot_focus.png"
+    },
+    {
+        "merged": "D:\\StudioProjects\\manager\\mysdk\\build\\intermediates\\res\\merged\\androidTest\\debug\\mipmap-hdpi-v4\\banner_dot_focus.png",
+        "source": "D:\\StudioProjects\\manager\\mysdk\\build\\intermediates\\exploded-aar\\com.jorge.circleview\\circlelibrary\\1.0.0\\res\\mipmap-hdpi-v4\\banner_dot_focus.png"
+    }
+]

@@ -1,0 +1,86 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical" >
+
+        <com.lltech.manager.widget.TopBar
+            android:id="@+id/top"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" >
+        </com.lltech.manager.widget.TopBar>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:background="@color/white"
+            android:padding="10dp" >
+
+            <FrameLayout
+                android:id="@+id/imgs"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" >
+
+
+                <ImageView
+                    android:id="@+id/eq_pic"
+                    android:layout_width="100dp"
+                    android:layout_height="match_parent"
+                    android:src="@drawable/no_pic" />
+                <ImageView
+                    android:id="@+id/two_pic"
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    android:layout_gravity="bottom"/>
+
+            </FrameLayout>
+
+            <LinearLayout
+                android:id="@+id/linearLayout1"
+                android:layout_width="wrap_content"
+                android:layout_height="150dp"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="10dp"
+                android:layout_toRightOf="@+id/imgs"
+                android:gravity="center_vertical|top"
+                android:orientation="vertical"
+                android:padding="5dp" >
+
+                <TextView
+                    android:id="@+id/content1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/loading"
+                    android:textSize="15sp" />
+
+                <TextView
+                    android:id="@+id/content2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:scrollbars="vertical"
+                    android:text="@string/loading"
+                    android:textColor="@color/gray"
+                    android:textSize="13sp" />
+            </LinearLayout>
+        </RelativeLayout>
+
+        <com.lcx.mysdk.view.ViewPagerIndicator
+            android:id="@+id/id_indicator"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:background="@color/btn_blue"
+            android:orientation="horizontal" >
+        </com.lcx.mysdk.view.ViewPagerIndicator>
+
+        <android.support.v4.view.ViewPager
+            android:id="@+id/id_vp"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1" >
+        </android.support.v4.view.ViewPager>
+    </LinearLayout>
+
+</FrameLayout>
